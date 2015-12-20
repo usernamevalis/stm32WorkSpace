@@ -1,0 +1,694 @@
+Archive member included because of file (symbol)
+
+../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+                              /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o (GPIO_Init)
+../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+                              /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o (PWR_RTCAccessCmd)
+../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+                              /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o (RCC_LSEConfig)
+../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+                              /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o (LCD_Init)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+                              /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o (__gnu_thumb1_case_uqi)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_thumb1_case_uhi.o)
+                              /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o (__gnu_thumb1_case_uhi)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_udivsi3.o)
+                              /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o (__aeabi_uidiv)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_dvmd_tls.o)
+                              /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-exit.o)
+                              /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-impure.o)
+                              /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-exit.o) (_global_impure_ptr)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-init.o)
+                              /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-memset.o)
+                              /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o)
+                              /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-exit.o) (__call_exitprocs)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-atexit.o)
+                              /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o) (atexit)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-fini.o)
+                              /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__atexit.o)
+                              /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-atexit.o) (__register_exitproc)
+
+Allocating common symbols
+Common symbol       size              file
+
+strDisp             0x14              /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .text          0x0000000000000000       0x60 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .data          0x0000000000000000        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .bss           0x0000000000000000       0x1c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .init_array    0x0000000000000000        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .fini_array    0x0000000000000000        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .eh_frame      0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .jcr           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .text          0x0000000000000000       0x78 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x0000000000000000        0x8 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1b /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .data          0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .bss           0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .text          0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .data          0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .bss           0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .text          0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .data          0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .bss           0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .text          0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .data          0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .bss           0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .text.SystemCoreClockUpdate
+                0x0000000000000000       0x8c /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .data.PLLMulTable
+                0x0000000000000000        0x9 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .data.AHBPrescTable
+                0x0000000000000000       0x10 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .text          0x0000000000000000       0x14 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+ .data          0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+ .bss           0x0000000000000000        0x0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+ .data          0x0000000000000000        0x0 ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+ .bss           0x0000000000000000        0x0 ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+ .data          0x0000000000000000        0x0 ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+ .bss           0x0000000000000000        0x0 ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+ .bss           0x0000000000000000        0x0 ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+ .data          0x0000000000000000        0x0 ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+ .bss           0x0000000000000000        0x0 ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+ .text          0x0000000000000000       0x14 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_thumb1_case_uhi.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_thumb1_case_uhi.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-exit.o)
+ .text.exit     0x0000000000000000       0x20 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000000000      0x428 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x0000000000000000        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x0000000000000000        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0000000000000000        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-memset.o)
+ .text.memset   0x0000000000000000       0x9c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000000       0x30 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o)
+ .text.startup.register_fini
+                0x0000000000000000       0x18 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o)
+ .init_array.00000
+                0x0000000000000000        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000000000      0x118 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000000       0x54 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-atexit.o)
+ .text.atexit   0x0000000000000000       0x10 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000000       0x28 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-atexit.o)
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-fini.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-fini.o)
+ .text.__libc_fini_array
+                0x0000000000000000       0x30 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000000       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x0000000000000000       0xc0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000000       0x38 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-__atexit.o)
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .jcr           0x0000000000000000        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .text          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ .data          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ .bss           0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000020000 xr
+RAM              0x0000000020000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+LOAD /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+LOAD /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+LOAD /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+LOAD /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+LOAD /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+LOAD /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+LOAD ../../Libraries/libstm32l1.a
+LOAD /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libnosys.a
+START GROUP
+LOAD /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a
+LOAD /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a
+LOAD /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libc.a
+END GROUP
+LOAD /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+LOAD /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x0000000020002000                _estack = 0x20002000
+
+.isr_vector     0x0000000008000000      0x10c
+                0x0000000008000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x10c /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+                0x0000000008000000                g_pfnVectors
+                0x000000000800010c                . = ALIGN (0x4)
+
+.text           0x000000000800010c     0x14d4
+                0x000000000800010c                . = ALIGN (0x4)
+ *(.text)
+ .text          0x000000000800010c      0x23c ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+                0x000000000800010c                GPIO_DeInit
+                0x00000000080001f0                GPIO_Init
+                0x00000000080002a0                GPIO_StructInit
+                0x00000000080002b4                GPIO_PinLockConfig
+                0x00000000080002d8                GPIO_ReadInputDataBit
+                0x00000000080002e4                GPIO_ReadInputData
+                0x00000000080002ec                GPIO_ReadOutputDataBit
+                0x00000000080002f8                GPIO_ReadOutputData
+                0x0000000008000300                GPIO_SetBits
+                0x0000000008000304                GPIO_ResetBits
+                0x0000000008000308                GPIO_WriteBit
+                0x0000000008000314                GPIO_Write
+                0x0000000008000318                GPIO_ToggleBits
+                0x0000000008000324                GPIO_PinAFConfig
+ .text          0x0000000008000348      0x174 ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+                0x0000000008000348                PWR_DeInit
+                0x0000000008000360                PWR_RTCAccessCmd
+                0x000000000800036c                PWR_PVDLevelConfig
+                0x0000000008000380                PWR_PVDCmd
+                0x000000000800038c                PWR_WakeUpPinCmd
+                0x00000000080003a4                PWR_FastWakeUpCmd
+                0x00000000080003b0                PWR_UltraLowPowerCmd
+                0x00000000080003bc                PWR_VoltageScalingConfig
+                0x00000000080003d8                PWR_EnterLowPowerRunMode
+                0x000000000800040c                PWR_EnterSleepMode
+                0x0000000008000438                PWR_EnterSTOPMode
+                0x0000000008000470                PWR_EnterSTANDBYMode
+                0x0000000008000498                PWR_GetFlagStatus
+                0x00000000080004ac                PWR_ClearFlag
+ .text          0x00000000080004bc      0x404 ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+                0x00000000080004bc                RCC_DeInit
+                0x0000000008000504                RCC_HSEConfig
+                0x0000000008000514                RCC_WaitForHSEStartUp
+                0x0000000008000550                RCC_AdjustMSICalibrationValue
+                0x000000000800055c                RCC_MSIRangeConfig
+                0x0000000008000574                RCC_MSICmd
+                0x0000000008000580                RCC_AdjustHSICalibrationValue
+                0x0000000008000598                RCC_HSICmd
+                0x00000000080005a4                RCC_LSEConfig
+                0x00000000080005b4                RCC_LSICmd
+                0x00000000080005c0                RCC_PLLConfig
+                0x00000000080005d0                RCC_PLLCmd
+                0x00000000080005dc                RCC_ClockSecuritySystemCmd
+                0x00000000080005e8                RCC_LSEClockSecuritySystemCmd
+                0x00000000080005f4                RCC_MCOConfig
+                0x0000000008000600                RCC_SYSCLKConfig
+                0x0000000008000614                RCC_GetSYSCLKSource
+                0x0000000008000624                RCC_HCLKConfig
+                0x0000000008000638                RCC_PCLK1Config
+                0x0000000008000650                RCC_PCLK2Config
+                0x0000000008000668                RCC_GetClocksFreq
+                0x0000000008000720                RCC_RTCCLKConfig
+                0x0000000008000760                RCC_RTCCLKCmd
+                0x000000000800076c                RCC_RTCResetCmd
+                0x0000000008000778                RCC_AHBPeriphClockCmd
+                0x0000000008000790                RCC_APB2PeriphClockCmd
+                0x00000000080007a8                RCC_APB1PeriphClockCmd
+                0x00000000080007c0                RCC_AHBPeriphResetCmd
+                0x00000000080007d8                RCC_APB2PeriphResetCmd
+                0x00000000080007f0                RCC_APB1PeriphResetCmd
+                0x0000000008000808                RCC_AHBPeriphClockLPModeCmd
+                0x0000000008000820                RCC_APB2PeriphClockLPModeCmd
+                0x0000000008000838                RCC_APB1PeriphClockLPModeCmd
+                0x0000000008000850                RCC_ITConfig
+                0x0000000008000868                RCC_GetFlagStatus
+                0x000000000800088c                RCC_ClearFlag
+                0x00000000080008a0                RCC_GetITStatus
+                0x00000000080008b4                RCC_ClearITPendingBit
+ .text          0x00000000080008c0      0x18c ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+                0x00000000080008c0                LCD_DeInit
+                0x00000000080008d8                LCD_Init
+                0x000000000800091c                LCD_StructInit
+                0x000000000800092c                LCD_Cmd
+                0x0000000008000938                LCD_WaitForSynchro
+                0x0000000008000948                LCD_HighDriveCmd
+                0x0000000008000954                LCD_MuxSegmentCmd
+                0x0000000008000960                LCD_PulseOnDurationConfig
+                0x0000000008000978                LCD_DeadTimeConfig
+                0x0000000008000994                LCD_BlinkConfig
+                0x00000000080009b4                LCD_ContrastConfig
+                0x00000000080009d0                LCD_Write
+                0x00000000080009e0                LCD_UpdateDisplayRequest
+                0x00000000080009ec                LCD_ITConfig
+                0x0000000008000a04                LCD_GetFlagStatus
+                0x0000000008000a18                LCD_ClearFlag
+                0x0000000008000a24                LCD_GetITStatus
+                0x0000000008000a40                LCD_ClearITPendingBit
+ .text          0x0000000008000a4c       0x14 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_thumb1_case_uhi.o)
+                0x0000000008000a4c                __gnu_thumb1_case_uhi
+ .text          0x0000000008000a60       0x9c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_udivsi3.o)
+                0x0000000008000a60                __udivsi3
+                0x0000000008000a60                __aeabi_uidiv
+                0x0000000008000ae8                __aeabi_uidivmod
+ .text          0x0000000008000afc        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x0000000008000afc                __aeabi_ldiv0
+                0x0000000008000afc                __aeabi_idiv0
+ *(.text.*)
+ .text.RCC_Configuration
+                0x0000000008000b00       0x40 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+                0x0000000008000b00                RCC_Configuration
+ .text.startup.main
+                0x0000000008000b40       0x50 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+                0x0000000008000b40                main
+ .text.LCD_bar  0x0000000008000b90       0x34 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+                0x0000000008000b90                LCD_bar
+ .text.LCD_GLASS_WriteChar
+                0x0000000008000bc4      0x3c4 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+                0x0000000008000bc4                LCD_GLASS_WriteChar
+ .text.LCD_GLASS_DisplayString
+                0x0000000008000f88       0x34 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+                0x0000000008000f88                LCD_GLASS_DisplayString
+ .text.LCD_GLASS_Clear
+                0x0000000008000fbc       0x28 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+                0x0000000008000fbc                LCD_GLASS_Clear
+ .text.LCD_GLASS_Configure_GPIO
+                0x0000000008000fe4      0x184 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+                0x0000000008000fe4                LCD_GLASS_Configure_GPIO
+ .text.LCD_GLASS_Init
+                0x0000000008001168       0x68 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+                0x0000000008001168                LCD_GLASS_Init
+ .text._putc.6581
+                0x00000000080011d0       0x24 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .text._puts.6585
+                0x00000000080011f4       0x32 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .text.mini_itoa.part.0
+                0x0000000008001226       0x90 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .text.mini_vsnprintf
+                0x00000000080012b6       0xee /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+                0x00000000080012b6                mini_vsnprintf
+ .text.mini_snprintf
+                0x00000000080013a4       0x16 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+                0x00000000080013a4                mini_snprintf
+ *fill*         0x00000000080013ba        0x2 
+ .text.SystemInit
+                0x00000000080013bc      0x114 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+                0x00000000080013bc                SystemInit
+ .text.Reset_Handler
+                0x00000000080014d0       0x50 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+                0x00000000080014d0                Reset_Handler
+ .text.Default_Handler
+                0x0000000008001520        0x4 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+                0x0000000008001520                I2C1_ER_IRQHandler
+                0x0000000008001520                EXTI2_IRQHandler
+                0x0000000008001520                DebugMon_Handler
+                0x0000000008001520                HardFault_Handler
+                0x0000000008001520                TIM10_IRQHandler
+                0x0000000008001520                USB_HP_IRQHandler
+                0x0000000008001520                TIM6_IRQHandler
+                0x0000000008001520                SysTick_Handler
+                0x0000000008001520                PVD_IRQHandler
+                0x0000000008001520                PendSV_Handler
+                0x0000000008001520                NMI_Handler
+                0x0000000008001520                EXTI3_IRQHandler
+                0x0000000008001520                EXTI0_IRQHandler
+                0x0000000008001520                I2C2_EV_IRQHandler
+                0x0000000008001520                UsageFault_Handler
+                0x0000000008001520                SPI1_IRQHandler
+                0x0000000008001520                USB_FS_WKUP_IRQHandler
+                0x0000000008001520                DMA1_Channel4_IRQHandler
+                0x0000000008001520                ADC1_IRQHandler
+                0x0000000008001520                USART3_IRQHandler
+                0x0000000008001520                DMA1_Channel7_IRQHandler
+                0x0000000008001520                LCD_IRQHandler
+                0x0000000008001520                TIM4_IRQHandler
+                0x0000000008001520                I2C1_EV_IRQHandler
+                0x0000000008001520                DMA1_Channel6_IRQHandler
+                0x0000000008001520                TIM3_IRQHandler
+                0x0000000008001520                RCC_IRQHandler
+                0x0000000008001520                DMA1_Channel1_IRQHandler
+                0x0000000008001520                Default_Handler
+                0x0000000008001520                EXTI15_10_IRQHandler
+                0x0000000008001520                TIM7_IRQHandler
+                0x0000000008001520                EXTI9_5_IRQHandler
+                0x0000000008001520                TIM9_IRQHandler
+                0x0000000008001520                TAMPER_STAMP_IRQHandler
+                0x0000000008001520                RTC_WKUP_IRQHandler
+                0x0000000008001520                SPI2_IRQHandler
+                0x0000000008001520                MemManage_Handler
+                0x0000000008001520                SVC_Handler
+                0x0000000008001520                DMA1_Channel5_IRQHandler
+                0x0000000008001520                USB_LP_IRQHandler
+                0x0000000008001520                EXTI4_IRQHandler
+                0x0000000008001520                DMA1_Channel3_IRQHandler
+                0x0000000008001520                COMP_IRQHandler
+                0x0000000008001520                WWDG_IRQHandler
+                0x0000000008001520                TIM2_IRQHandler
+                0x0000000008001520                DAC_IRQHandler
+                0x0000000008001520                EXTI1_IRQHandler
+                0x0000000008001520                TIM11_IRQHandler
+                0x0000000008001520                USART2_IRQHandler
+                0x0000000008001520                I2C2_ER_IRQHandler
+                0x0000000008001520                DMA1_Channel2_IRQHandler
+                0x0000000008001520                FLASH_IRQHandler
+                0x0000000008001520                BusFault_Handler
+                0x0000000008001520                USART1_IRQHandler
+                0x0000000008001520                RTC_Alarm_IRQHandler
+ .text.__libc_init_array
+                0x0000000008001524       0x48 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-init.o)
+                0x0000000008001524                __libc_init_array
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x000000000800156c       0x14 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .rodata.CapLetterMap
+                0x0000000008001580       0x34 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+                0x0000000008001580                CapLetterMap
+ .rodata.NumberMap
+                0x00000000080015b4       0x14 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+                0x00000000080015b4                NumberMap
+ *(.glue_7)
+ .glue_7        0x0000000000000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+ *(.init)
+ .init          0x00000000080015c8        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x00000000080015c8                _init
+ .init          0x00000000080015cc        0x8 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x00000000080015d4        0x4 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x00000000080015d4                _fini
+ .fini          0x00000000080015d8        0x8 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000000080015e0                . = ALIGN (0x4)
+                0x00000000080015e0                _etext = .
+                0x00000000080015e0                _sidata = _etext
+
+.vfp11_veneer   0x00000000080015e0        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x00000000080015e0        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x00000000080015e0        0x0
+ .iplt          0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.rel.dyn        0x00000000080015e0        0x0
+ .rel.iplt      0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.data           0x0000000020000000       0x20 load address 0x00000000080015e0
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+                0x0000000020000000                _data = .
+ *(.data)
+ .data          0x0000000020000000       0x1c ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+ *(.data.*)
+ .data.SystemCoreClock
+                0x000000002000001c        0x4 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+                0x000000002000001c                SystemCoreClock
+ *(.RAMtext)
+                0x0000000020000020                . = ALIGN (0x4)
+                0x0000000020000020                _edata = .
+
+.igot.plt       0x0000000020000020        0x0 load address 0x0000000008001600
+ .igot.plt      0x0000000000000000        0x0 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+
+.bss            0x0000000020000020       0x18 load address 0x0000000008001600
+                0x0000000020000020                . = ALIGN (0x4)
+                0x0000000020000020                _sbss = .
+                0x0000000020000020                _bss = .
+ *(.bss)
+ *(.bss.*)
+ .bss.t_bar     0x0000000020000020        0x2 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+                0x0000000020000020                t_bar
+ *(COMMON)
+ COMMON         0x0000000020000022       0x14 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+                0x0000000020000022                strDisp
+                0x0000000020000038                . = ALIGN (0x4)
+ *fill*         0x0000000020000036        0x2 
+                0x0000000020000038                _ebss = .
+                0x0000000020000038                PROVIDE (end, _ebss)
+                0x0000000020000038                PROVIDE (_end, _ebss)
+                0x0000000020000038                __exidx_start = .
+                0x0000000020000038                __exidx_end = .
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0xe0
+ *(.comment)
+ .comment       0x0000000000000000       0x70 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+                                         0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .comment       0x0000000000000000       0x71 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .comment       0x0000000000000000       0x71 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .comment       0x0000000000000070       0x70 ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+                                         0x71 (size before relaxing)
+ .comment       0x0000000000000000       0x71 ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+ .comment       0x0000000000000000       0x71 ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+ .comment       0x0000000000000000       0x71 ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2d
+ .ARM.attributes
+                0x0000000000000000       0x1e /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x31 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .ARM.attributes
+                0x000000000000004f       0x31 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .ARM.attributes
+                0x0000000000000080       0x31 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .ARM.attributes
+                0x00000000000000b1       0x31 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .ARM.attributes
+                0x00000000000000e2       0x21 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+ .ARM.attributes
+                0x0000000000000103       0x31 ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+ .ARM.attributes
+                0x0000000000000134       0x31 ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+ .ARM.attributes
+                0x0000000000000165       0x31 ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+ .ARM.attributes
+                0x0000000000000196       0x31 ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+ .ARM.attributes
+                0x00000000000001c7       0x1e /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_thumb1_case_uhi.o)
+ .ARM.attributes
+                0x00000000000001e5       0x1e /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000203       0x1e /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000221       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x000000000000024d       0x1e /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x180
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .debug_aranges
+                0x0000000000000028       0x48 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .debug_aranges
+                0x0000000000000070       0x40 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .debug_aranges
+                0x00000000000000b0       0x28 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .debug_aranges
+                0x00000000000000d8       0x28 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+ .debug_aranges
+                0x0000000000000100       0x20 ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+ .debug_aranges
+                0x0000000000000120       0x20 ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+ .debug_aranges
+                0x0000000000000140       0x20 ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+ .debug_aranges
+                0x0000000000000160       0x20 ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x3880
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x3cc /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .debug_info    0x00000000000003cc      0xc3b /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .debug_info    0x0000000000001007      0x56b /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .debug_info    0x0000000000001572      0x56b /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .debug_info    0x0000000000001add       0x9f /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+ .debug_info    0x0000000000001b7c      0x7bd ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+ .debug_info    0x0000000000002339      0x5d5 ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+ .debug_info    0x000000000000290e      0xa93 ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+ .debug_info    0x00000000000033a1      0x4df ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+
+.debug_abbrev   0x0000000000000000     0x1039
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x1af /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .debug_abbrev  0x00000000000001af      0x28f /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .debug_abbrev  0x000000000000043e      0x23d /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .debug_abbrev  0x000000000000067b      0x15f /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .debug_abbrev  0x00000000000007da       0x12 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+ .debug_abbrev  0x00000000000007ec      0x1e5 ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+ .debug_abbrev  0x00000000000009d1      0x1e1 ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+ .debug_abbrev  0x0000000000000bb2      0x29a ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+ .debug_abbrev  0x0000000000000e4c      0x1ed ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+
+.debug_line     0x0000000000000000     0x132b
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x221 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .debug_line    0x0000000000000221      0x345 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .debug_line    0x0000000000000566      0x252 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .debug_line    0x00000000000007b8      0x1ca /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .debug_line    0x0000000000000982       0x80 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+ .debug_line    0x0000000000000a02      0x20b ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+ .debug_line    0x0000000000000c0d      0x209 ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+ .debug_line    0x0000000000000e16      0x30d ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+ .debug_line    0x0000000000001123      0x208 ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+
+.debug_frame    0x0000000000000000      0x838
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x48 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .debug_frame   0x0000000000000048       0xb0 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .debug_frame   0x00000000000000f8       0xac /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .debug_frame   0x00000000000001a4       0x4c /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .debug_frame   0x00000000000001f0      0x120 ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+ .debug_frame   0x0000000000000310      0x10c ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+ .debug_frame   0x000000000000041c      0x288 ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+ .debug_frame   0x00000000000006a4      0x148 ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+ .debug_frame   0x00000000000007ec       0x20 /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000000000000080c       0x2c /Users/nathanogates/Development/embedded/redux/gcc-arm/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg.a(lib_a-init.o)
+
+.debug_str      0x0000000000000000     0x1229
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x329 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+                                        0x38c (size before relaxing)
+ .debug_str     0x0000000000000329      0x3b3 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+                                        0x619 (size before relaxing)
+ .debug_str     0x00000000000006dc       0x98 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+                                        0x277 (size before relaxing)
+ .debug_str     0x0000000000000774      0x18d /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+                                        0x3b5 (size before relaxing)
+ .debug_str     0x0000000000000901      0x233 ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+                                        0x4e6 (size before relaxing)
+ .debug_str     0x0000000000000b34      0x1b1 ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+                                        0x3d7 (size before relaxing)
+ .debug_str     0x0000000000000ce5      0x34e ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+                                        0x704 (size before relaxing)
+ .debug_str     0x0000000000001033      0x1f6 ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+                                        0x430 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x1b0a
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x320 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .debug_loc     0x0000000000000320      0x5c1 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .debug_loc     0x00000000000008e1      0x119 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .debug_loc     0x00000000000009fa      0x38c ../../Libraries/libstm32l1.a(stm32l1xx_gpio.o)
+ .debug_loc     0x0000000000000d86      0x23a ../../Libraries/libstm32l1.a(stm32l1xx_pwr.o)
+ .debug_loc     0x0000000000000fc0      0x98f ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
+ .debug_loc     0x000000000000194f      0x1bb ../../Libraries/libstm32l1.a(stm32l1xx_lcd.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(main.elf elf32-littlearm)
+
+.debug_ranges   0x0000000000000000      0x140
+ .debug_ranges  0x0000000000000000       0x18 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cckXQXEI.o
+ .debug_ranges  0x0000000000000018       0x50 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccSpjkEC.o
+ .debug_ranges  0x0000000000000068       0x70 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cciM8pna.o
+ .debug_ranges  0x00000000000000d8       0x30 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//ccrVfLM6.o
+ .debug_ranges  0x0000000000000108       0x20 /var/folders/8f/zhq2rlhx6sl47y8ztwk74bcr0000gn/T//cc9wG0dT.o
+ .debug_ranges  0x0000000000000128       0x18 ../../Libraries/libstm32l1.a(stm32l1xx_rcc.o)
