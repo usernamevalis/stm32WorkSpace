@@ -1,0 +1,4325 @@
+
+main.elf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+08000000 l    d  .isr_vector	00000000 .isr_vector
+0800010c l    d  .text	00000000 .text
+20000000 l    d  .data	00000000 .data
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    df *ABS*	00000000 /var/folders/h0/2q1j9d79277fqdqkv5jkhpq80000gp/T//ccbQorAr.o
+f108f85f l       *ABS*	00000000 BootRAM
+08000ef2 l       .text	00000000 LoopCopyDataInit
+08000eea l       .text	00000000 CopyDataInit
+08000f0a l       .text	00000000 LoopFillZerobss
+08000f04 l       .text	00000000 FillZerobss
+08000f34 l       .text	00000000 Infinite_Loop
+00000000 l    df *ABS*	00000000 stm32l1xx_gpio.c
+00000000 l    df *ABS*	00000000 stm32l1xx_rcc.c
+20000000 l     O .data	00000009 PLLMulTable
+2000000c l     O .data	00000010 APBAHBPrescTable
+00000000 l    df *ABS*	00000000 _udivsi3.o
+08000750 l       .text	00000000 .udivsi3_skip_div0_test
+00000000 l    df *ABS*	00000000 _dvmd_tls.o
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    df *ABS*	00000000 system_stm32l1xx.c
+00000000 l    df *ABS*	00000000 init.c
+00000000 l    df *ABS*	00000000 /Users/interactive/Development/embedded/stm32/toolchain/armm-gcc/gccArm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crti.o
+00000000 l    df *ABS*	00000000 /Users/interactive/Development/embedded/stm32/toolchain/armm-gcc/gccArm/bin/../lib/gcc/arm-none-eabi/4.8.3/armv6-m/crtn.o
+00000000 l    df *ABS*	00000000 
+20000020 l       .data	00000000 __exidx_end
+00000000 l       *UND*	00000000 __fini_array_end
+00000000 l       *UND*	00000000 malloc
+00000000 l       *UND*	00000000 __bss_start__
+20000020 l       .data	00000000 __exidx_start
+00000000 l       *UND*	00000000 __deregister_frame_info
+00000000 l       *UND*	00000000 __bss_end__
+00000000 l       *UND*	00000000 software_init_hook
+00000000 l       *UND*	00000000 __fini_array_start
+00000000 l       *UND*	00000000 hardware_init_hook
+00000000 l       *UND*	00000000 __libc_fini
+00000000 l       *UND*	00000000 __stack
+00000000 l       *UND*	00000000 _exit
+00000000 l       *UND*	00000000 _Jv_RegisterClasses
+00000000 l       *UND*	00000000 __register_frame_info
+00000000 l       *UND*	00000000 free
+08000f34  w    F .text	00000004 RTC_Alarm_IRQHandler
+08000f34  w    F .text	00000004 EXTI2_IRQHandler
+08000424 g     F .text	0000000c RCC_HSICmd
+0800045c g     F .text	0000000c RCC_PLLCmd
+08000f34  w    F .text	00000004 DebugMon_Handler
+0800064c g     F .text	00000018 RCC_AHBPeriphResetCmd
+08000324 g     F .text	00000024 GPIO_PinAFConfig
+08000740 g     F .text	0000000c RCC_ClearITPendingBit
+080002ec g     F .text	0000000c GPIO_ReadOutputDataBit
+08000f34  w    F .text	00000004 HardFault_Handler
+08000f34  w    F .text	00000004 TIM10_IRQHandler
+08000f34  w    F .text	00000004 USB_HP_IRQHandler
+08000f34  w    F .text	00000004 TIM6_IRQHandler
+08000f34  w    F .text	00000004 SysTick_Handler
+08000480 g     F .text	0000000c RCC_MCOConfig
+08000f34  w    F .text	00000004 PVD_IRQHandler
+08000f98 g       .text	00000000 _sidata
+08000f34  w    F .text	00000004 PendSV_Handler
+08000f34  w    F .text	00000004 NMI_Handler
+08000f34  w    F .text	00000004 EXTI3_IRQHandler
+080006dc g     F .text	00000018 RCC_ITConfig
+08000694 g     F .text	00000018 RCC_AHBPeriphClockLPModeCmd
+08000f98 g       .text	00000000 _etext
+20000020 g       .data	00000000 _sbss
+0800048c g     F .text	00000014 RCC_SYSCLKConfig
+080003a0 g     F .text	0000003c RCC_WaitForHSEStartUp
+2000001c g     O .data	00000004 NextRandom
+08000468 g     F .text	0000000c RCC_ClockSecuritySystemCmd
+08000f34  w    F .text	00000004 EXTI0_IRQHandler
+08000f34  w    F .text	00000004 I2C2_EV_IRQHandler
+08000718 g     F .text	00000014 RCC_ClearFlag
+08000390 g     F .text	00000010 RCC_HSEConfig
+0800074c g     F .text	00000088 .hidden __udivsi3
+08000318 g     F .text	0000000a GPIO_ToggleBits
+08000f34  w    F .text	00000004 UsageFault_Handler
+0800061c g     F .text	00000018 RCC_APB2PeriphClockCmd
+080001f0 g     F .text	000000ae GPIO_Init
+0800044c g     F .text	00000010 RCC_PLLConfig
+20000000 g       .data	00000000 _sdata
+08000f34  w    F .text	00000004 SPI1_IRQHandler
+08000314 g     F .text	00000004 GPIO_Write
+080002f8 g     F .text	00000006 GPIO_ReadOutputData
+08000430 g     F .text	00000010 RCC_LSEConfig
+080005ec g     F .text	0000000c RCC_RTCCLKCmd
+08000634 g     F .text	00000018 RCC_APB1PeriphClockCmd
+0800072c g     F .text	00000014 RCC_GetITStatus
+08000f34  w    F .text	00000004 USB_FS_WKUP_IRQHandler
+08000f38 g     F .text	00000048 __libc_init_array
+08000604 g     F .text	00000018 RCC_AHBPeriphClockCmd
+08000f34  w    F .text	00000004 DMA1_Channel4_IRQHandler
+08000f34  w    F .text	00000004 ADC1_IRQHandler
+08000f80 g     F .text	00000000 _init
+08000f34  w    F .text	00000004 USART3_IRQHandler
+20000020 g       .data	00000000 _ebss
+08000f34  w    F .text	00000004 DMA1_Channel7_IRQHandler
+08000ee4  w    F .text	0000003c Reset_Handler
+080002e4 g     F .text	00000006 GPIO_ReadInputData
+08000f34  w    F .text	00000004 LCD_IRQHandler
+080006f4 g     F .text	00000024 RCC_GetFlagStatus
+08000300 g     F .text	00000004 GPIO_SetBits
+08000f34  w    F .text	00000004 TIM4_IRQHandler
+080004a0 g     F .text	00000010 RCC_GetSYSCLKSource
+08000308 g     F .text	0000000c GPIO_WriteBit
+08000f34  w    F .text	00000004 I2C1_EV_IRQHandler
+080004f4 g     F .text	000000b8 RCC_GetClocksFreq
+08000f34  w    F .text	00000004 DMA1_Channel6_IRQHandler
+080006ac g     F .text	00000018 RCC_APB2PeriphClockLPModeCmd
+08000f34  w    F .text	00000004 TIM3_IRQHandler
+08000f34  w    F .text	00000004 RCC_IRQHandler
+20000020 g       .data	00000000 _bss
+08000f34  w    F .text	00000004 DMA1_Channel1_IRQHandler
+08000f34 g       .text	00000004 Default_Handler
+080005ac g     F .text	00000040 RCC_RTCCLKConfig
+08000f34  w    F .text	00000004 EXTI15_10_IRQHandler
+08000304 g     F .text	00000004 GPIO_ResetBits
+08000f34  w    F .text	00000004 TIM7_IRQHandler
+080007ec g     F .text	00000068 gpioInit
+080007e8  w    F .text	00000002 .hidden __aeabi_ldiv0
+08000f34  w    F .text	00000004 EXTI9_5_IRQHandler
+080003e8 g     F .text	00000018 RCC_MSIRangeConfig
+08000f34  w    F .text	00000004 TIM9_IRQHandler
+08000f34  w    F .text	00000004 TAMPER_STAMP_IRQHandler
+08000f34  w    F .text	00000004 RTC_WKUP_IRQHandler
+080006c4 g     F .text	00000018 RCC_APB1PeriphClockLPModeCmd
+08000f34  w    F .text	00000004 SPI2_IRQHandler
+08000f34  w    F .text	00000004 MemManage_Handler
+0800040c g     F .text	00000018 RCC_AdjustHSICalibrationValue
+08000854 g     F .text	0000057c main
+0800074c g     F .text	00000000 .hidden __aeabi_uidiv
+08000f34  w    F .text	00000004 SVC_Handler
+00000000  w      *UND*	00000000 __init_array_end
+080004c4 g     F .text	00000018 RCC_PCLK1Config
+08000f34  w    F .text	00000004 DMA1_Channel5_IRQHandler
+08000f34  w    F .text	00000004 USB_LP_IRQHandler
+08000f34  w    F .text	00000004 EXTI4_IRQHandler
+080004dc g     F .text	00000018 RCC_PCLK2Config
+08000dd0 g     F .text	00000114 SystemInit
+0800010c g     F .text	000000e4 GPIO_DeInit
+08000f8c g     F .text	00000000 _fini
+08000348 g     F .text	00000048 RCC_DeInit
+08000f34  w    F .text	00000004 DMA1_Channel3_IRQHandler
+08000f34  w    F .text	00000004 COMP_IRQHandler
+00000000  w      *UND*	00000000 __preinit_array_end
+08000f34  w    F .text	00000004 WWDG_IRQHandler
+08000474 g     F .text	0000000c RCC_LSEClockSecuritySystemCmd
+0800067c g     F .text	00000018 RCC_APB1PeriphResetCmd
+20000000 g       .data	00000000 _data
+08000f34  w    F .text	00000004 TIM2_IRQHandler
+080002a0 g     F .text	00000014 GPIO_StructInit
+20002000 g       *ABS*	00000000 _estack
+08000f34  w    F .text	00000004 DAC_IRQHandler
+080007d4 g     F .text	00000012 .hidden __aeabi_uidivmod
+08000f34  w    F .text	00000004 EXTI1_IRQHandler
+20000020 g       .data	00000000 _edata
+080005f8 g     F .text	0000000c RCC_RTCResetCmd
+08000f34  w    F .text	00000004 TIM11_IRQHandler
+08000f34  w    F .text	00000004 USART2_IRQHandler
+08000000 g     O .isr_vector	00000000 g_pfnVectors
+08000400 g     F .text	0000000c RCC_MSICmd
+08000f34  w    F .text	00000004 I2C2_ER_IRQHandler
+08000f34  w    F .text	00000004 DMA1_Channel2_IRQHandler
+00000000  w      *UND*	00000000 __init_array_start
+080007e8  w    F .text	00000002 .hidden __aeabi_idiv0
+08000f34  w    F .text	00000004 FLASH_IRQHandler
+080002b4 g     F .text	00000024 GPIO_PinLockConfig
+08000f34  w    F .text	00000004 BusFault_Handler
+08000f34  w    F .text	00000004 USART1_IRQHandler
+08000440 g     F .text	0000000c RCC_LSICmd
+08000664 g     F .text	00000018 RCC_APB2PeriphResetCmd
+08000f34  w    F .text	00000004 I2C1_ER_IRQHandler
+080003dc g     F .text	0000000c RCC_AdjustMSICalibrationValue
+00000000  w      *UND*	00000000 __preinit_array_start
+080002d8 g     F .text	0000000c GPIO_ReadInputDataBit
+080004b0 g     F .text	00000014 RCC_HCLKConfig
+
+
+
+Disassembly of section .text:
+
+0800010c <GPIO_DeInit>:
+ 800010c:	b508      	push	{r3, lr}
+ 800010e:	4b30      	ldr	r3, [pc, #192]	; (80001d0 <GPIO_DeInit+0xc4>)
+ 8000110:	4298      	cmp	r0, r3
+ 8000112:	d01e      	beq.n	8000152 <GPIO_DeInit+0x46>
+ 8000114:	4b2f      	ldr	r3, [pc, #188]	; (80001d4 <GPIO_DeInit+0xc8>)
+ 8000116:	4298      	cmp	r0, r3
+ 8000118:	d024      	beq.n	8000164 <GPIO_DeInit+0x58>
+ 800011a:	4b2f      	ldr	r3, [pc, #188]	; (80001d8 <GPIO_DeInit+0xcc>)
+ 800011c:	4298      	cmp	r0, r3
+ 800011e:	d02a      	beq.n	8000176 <GPIO_DeInit+0x6a>
+ 8000120:	4b2e      	ldr	r3, [pc, #184]	; (80001dc <GPIO_DeInit+0xd0>)
+ 8000122:	4298      	cmp	r0, r3
+ 8000124:	d030      	beq.n	8000188 <GPIO_DeInit+0x7c>
+ 8000126:	4b2e      	ldr	r3, [pc, #184]	; (80001e0 <GPIO_DeInit+0xd4>)
+ 8000128:	4298      	cmp	r0, r3
+ 800012a:	d036      	beq.n	800019a <GPIO_DeInit+0x8e>
+ 800012c:	4b2d      	ldr	r3, [pc, #180]	; (80001e4 <GPIO_DeInit+0xd8>)
+ 800012e:	4298      	cmp	r0, r3
+ 8000130:	d03c      	beq.n	80001ac <GPIO_DeInit+0xa0>
+ 8000132:	4b2d      	ldr	r3, [pc, #180]	; (80001e8 <GPIO_DeInit+0xdc>)
+ 8000134:	4298      	cmp	r0, r3
+ 8000136:	d042      	beq.n	80001be <GPIO_DeInit+0xb2>
+ 8000138:	4b2c      	ldr	r3, [pc, #176]	; (80001ec <GPIO_DeInit+0xe0>)
+ 800013a:	4298      	cmp	r0, r3
+ 800013c:	d000      	beq.n	8000140 <GPIO_DeInit+0x34>
+ 800013e:	bd08      	pop	{r3, pc}
+ 8000140:	2020      	movs	r0, #32
+ 8000142:	2101      	movs	r1, #1
+ 8000144:	f000 fa82 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 8000148:	2020      	movs	r0, #32
+ 800014a:	2100      	movs	r1, #0
+ 800014c:	f000 fa7e 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 8000150:	e7f5      	b.n	800013e <GPIO_DeInit+0x32>
+ 8000152:	2001      	movs	r0, #1
+ 8000154:	2101      	movs	r1, #1
+ 8000156:	f000 fa79 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 800015a:	2001      	movs	r0, #1
+ 800015c:	2100      	movs	r1, #0
+ 800015e:	f000 fa75 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 8000162:	e7ec      	b.n	800013e <GPIO_DeInit+0x32>
+ 8000164:	2002      	movs	r0, #2
+ 8000166:	2101      	movs	r1, #1
+ 8000168:	f000 fa70 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 800016c:	2002      	movs	r0, #2
+ 800016e:	2100      	movs	r1, #0
+ 8000170:	f000 fa6c 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 8000174:	e7e3      	b.n	800013e <GPIO_DeInit+0x32>
+ 8000176:	2004      	movs	r0, #4
+ 8000178:	2101      	movs	r1, #1
+ 800017a:	f000 fa67 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 800017e:	2004      	movs	r0, #4
+ 8000180:	2100      	movs	r1, #0
+ 8000182:	f000 fa63 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 8000186:	e7da      	b.n	800013e <GPIO_DeInit+0x32>
+ 8000188:	2008      	movs	r0, #8
+ 800018a:	2101      	movs	r1, #1
+ 800018c:	f000 fa5e 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 8000190:	2008      	movs	r0, #8
+ 8000192:	2100      	movs	r1, #0
+ 8000194:	f000 fa5a 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 8000198:	e7d1      	b.n	800013e <GPIO_DeInit+0x32>
+ 800019a:	2010      	movs	r0, #16
+ 800019c:	2101      	movs	r1, #1
+ 800019e:	f000 fa55 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 80001a2:	2010      	movs	r0, #16
+ 80001a4:	2100      	movs	r1, #0
+ 80001a6:	f000 fa51 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 80001aa:	e7c8      	b.n	800013e <GPIO_DeInit+0x32>
+ 80001ac:	2040      	movs	r0, #64	; 0x40
+ 80001ae:	2101      	movs	r1, #1
+ 80001b0:	f000 fa4c 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 80001b4:	2040      	movs	r0, #64	; 0x40
+ 80001b6:	2100      	movs	r1, #0
+ 80001b8:	f000 fa48 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 80001bc:	e7bf      	b.n	800013e <GPIO_DeInit+0x32>
+ 80001be:	2080      	movs	r0, #128	; 0x80
+ 80001c0:	2101      	movs	r1, #1
+ 80001c2:	f000 fa43 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 80001c6:	2080      	movs	r0, #128	; 0x80
+ 80001c8:	2100      	movs	r1, #0
+ 80001ca:	f000 fa3f 	bl	800064c <RCC_AHBPeriphResetCmd>
+ 80001ce:	e7b6      	b.n	800013e <GPIO_DeInit+0x32>
+ 80001d0:	40020000 	.word	0x40020000
+ 80001d4:	40020400 	.word	0x40020400
+ 80001d8:	40020800 	.word	0x40020800
+ 80001dc:	40020c00 	.word	0x40020c00
+ 80001e0:	40021000 	.word	0x40021000
+ 80001e4:	40021800 	.word	0x40021800
+ 80001e8:	40021c00 	.word	0x40021c00
+ 80001ec:	40021400 	.word	0x40021400
+
+080001f0 <GPIO_Init>:
+ 80001f0:	b5f0      	push	{r4, r5, r6, r7, lr}
+ 80001f2:	4644      	mov	r4, r8
+ 80001f4:	465f      	mov	r7, fp
+ 80001f6:	4656      	mov	r6, sl
+ 80001f8:	464d      	mov	r5, r9
+ 80001fa:	b4f0      	push	{r4, r5, r6, r7}
+ 80001fc:	468c      	mov	ip, r1
+ 80001fe:	680f      	ldr	r7, [r1, #0]
+ 8000200:	2103      	movs	r1, #3
+ 8000202:	b083      	sub	sp, #12
+ 8000204:	2400      	movs	r4, #0
+ 8000206:	2300      	movs	r3, #0
+ 8000208:	2601      	movs	r6, #1
+ 800020a:	4688      	mov	r8, r1
+ 800020c:	e003      	b.n	8000216 <GPIO_Init+0x26>
+ 800020e:	3301      	adds	r3, #1
+ 8000210:	3402      	adds	r4, #2
+ 8000212:	2b10      	cmp	r3, #16
+ 8000214:	d026      	beq.n	8000264 <GPIO_Init+0x74>
+ 8000216:	1c32      	adds	r2, r6, #0
+ 8000218:	409a      	lsls	r2, r3
+ 800021a:	1c3d      	adds	r5, r7, #0
+ 800021c:	4015      	ands	r5, r2
+ 800021e:	4295      	cmp	r5, r2
+ 8000220:	d1f5      	bne.n	800020e <GPIO_Init+0x1e>
+ 8000222:	4642      	mov	r2, r8
+ 8000224:	6801      	ldr	r1, [r0, #0]
+ 8000226:	40a2      	lsls	r2, r4
+ 8000228:	43d2      	mvns	r2, r2
+ 800022a:	4011      	ands	r1, r2
+ 800022c:	6001      	str	r1, [r0, #0]
+ 800022e:	4661      	mov	r1, ip
+ 8000230:	7909      	ldrb	r1, [r1, #4]
+ 8000232:	4693      	mov	fp, r2
+ 8000234:	6802      	ldr	r2, [r0, #0]
+ 8000236:	9101      	str	r1, [sp, #4]
+ 8000238:	40a1      	lsls	r1, r4
+ 800023a:	4311      	orrs	r1, r2
+ 800023c:	6001      	str	r1, [r0, #0]
+ 800023e:	9901      	ldr	r1, [sp, #4]
+ 8000240:	3901      	subs	r1, #1
+ 8000242:	b2c9      	uxtb	r1, r1
+ 8000244:	2901      	cmp	r1, #1
+ 8000246:	d914      	bls.n	8000272 <GPIO_Init+0x82>
+ 8000248:	68c1      	ldr	r1, [r0, #12]
+ 800024a:	465a      	mov	r2, fp
+ 800024c:	400a      	ands	r2, r1
+ 800024e:	4665      	mov	r5, ip
+ 8000250:	60c2      	str	r2, [r0, #12]
+ 8000252:	79ea      	ldrb	r2, [r5, #7]
+ 8000254:	68c1      	ldr	r1, [r0, #12]
+ 8000256:	40a2      	lsls	r2, r4
+ 8000258:	430a      	orrs	r2, r1
+ 800025a:	3301      	adds	r3, #1
+ 800025c:	60c2      	str	r2, [r0, #12]
+ 800025e:	3402      	adds	r4, #2
+ 8000260:	2b10      	cmp	r3, #16
+ 8000262:	d1d8      	bne.n	8000216 <GPIO_Init+0x26>
+ 8000264:	b003      	add	sp, #12
+ 8000266:	bc3c      	pop	{r2, r3, r4, r5}
+ 8000268:	4690      	mov	r8, r2
+ 800026a:	4699      	mov	r9, r3
+ 800026c:	46a2      	mov	sl, r4
+ 800026e:	46ab      	mov	fp, r5
+ 8000270:	bdf0      	pop	{r4, r5, r6, r7, pc}
+ 8000272:	6881      	ldr	r1, [r0, #8]
+ 8000274:	465a      	mov	r2, fp
+ 8000276:	4011      	ands	r1, r2
+ 8000278:	4662      	mov	r2, ip
+ 800027a:	6081      	str	r1, [r0, #8]
+ 800027c:	7952      	ldrb	r2, [r2, #5]
+ 800027e:	6881      	ldr	r1, [r0, #8]
+ 8000280:	40a2      	lsls	r2, r4
+ 8000282:	4311      	orrs	r1, r2
+ 8000284:	6081      	str	r1, [r0, #8]
+ 8000286:	6841      	ldr	r1, [r0, #4]
+ 8000288:	4662      	mov	r2, ip
+ 800028a:	b289      	uxth	r1, r1
+ 800028c:	43a9      	bics	r1, r5
+ 800028e:	8081      	strh	r1, [r0, #4]
+ 8000290:	7991      	ldrb	r1, [r2, #6]
+ 8000292:	6845      	ldr	r5, [r0, #4]
+ 8000294:	4099      	lsls	r1, r3
+ 8000296:	4329      	orrs	r1, r5
+ 8000298:	b289      	uxth	r1, r1
+ 800029a:	8081      	strh	r1, [r0, #4]
+ 800029c:	e7d4      	b.n	8000248 <GPIO_Init+0x58>
+ 800029e:	46c0      	nop			; (mov r8, r8)
+
+080002a0 <GPIO_StructInit>:
+ 80002a0:	4b03      	ldr	r3, [pc, #12]	; (80002b0 <GPIO_StructInit+0x10>)
+ 80002a2:	6003      	str	r3, [r0, #0]
+ 80002a4:	2300      	movs	r3, #0
+ 80002a6:	7103      	strb	r3, [r0, #4]
+ 80002a8:	7143      	strb	r3, [r0, #5]
+ 80002aa:	7183      	strb	r3, [r0, #6]
+ 80002ac:	71c3      	strb	r3, [r0, #7]
+ 80002ae:	4770      	bx	lr
+ 80002b0:	0000ffff 	.word	0x0000ffff
+
+080002b4 <GPIO_PinLockConfig>:
+ 80002b4:	2380      	movs	r3, #128	; 0x80
+ 80002b6:	b082      	sub	sp, #8
+ 80002b8:	025b      	lsls	r3, r3, #9
+ 80002ba:	9301      	str	r3, [sp, #4]
+ 80002bc:	9b01      	ldr	r3, [sp, #4]
+ 80002be:	430b      	orrs	r3, r1
+ 80002c0:	9301      	str	r3, [sp, #4]
+ 80002c2:	9b01      	ldr	r3, [sp, #4]
+ 80002c4:	61c3      	str	r3, [r0, #28]
+ 80002c6:	61c1      	str	r1, [r0, #28]
+ 80002c8:	9b01      	ldr	r3, [sp, #4]
+ 80002ca:	61c3      	str	r3, [r0, #28]
+ 80002cc:	69c3      	ldr	r3, [r0, #28]
+ 80002ce:	9301      	str	r3, [sp, #4]
+ 80002d0:	69c3      	ldr	r3, [r0, #28]
+ 80002d2:	9301      	str	r3, [sp, #4]
+ 80002d4:	b002      	add	sp, #8
+ 80002d6:	4770      	bx	lr
+
+080002d8 <GPIO_ReadInputDataBit>:
+ 80002d8:	6900      	ldr	r0, [r0, #16]
+ 80002da:	4008      	ands	r0, r1
+ 80002dc:	1e43      	subs	r3, r0, #1
+ 80002de:	4198      	sbcs	r0, r3
+ 80002e0:	b2c0      	uxtb	r0, r0
+ 80002e2:	4770      	bx	lr
+
+080002e4 <GPIO_ReadInputData>:
+ 80002e4:	6900      	ldr	r0, [r0, #16]
+ 80002e6:	b280      	uxth	r0, r0
+ 80002e8:	4770      	bx	lr
+ 80002ea:	46c0      	nop			; (mov r8, r8)
+
+080002ec <GPIO_ReadOutputDataBit>:
+ 80002ec:	6940      	ldr	r0, [r0, #20]
+ 80002ee:	4008      	ands	r0, r1
+ 80002f0:	1e43      	subs	r3, r0, #1
+ 80002f2:	4198      	sbcs	r0, r3
+ 80002f4:	b2c0      	uxtb	r0, r0
+ 80002f6:	4770      	bx	lr
+
+080002f8 <GPIO_ReadOutputData>:
+ 80002f8:	6940      	ldr	r0, [r0, #20]
+ 80002fa:	b280      	uxth	r0, r0
+ 80002fc:	4770      	bx	lr
+ 80002fe:	46c0      	nop			; (mov r8, r8)
+
+08000300 <GPIO_SetBits>:
+ 8000300:	8301      	strh	r1, [r0, #24]
+ 8000302:	4770      	bx	lr
+
+08000304 <GPIO_ResetBits>:
+ 8000304:	8341      	strh	r1, [r0, #26]
+ 8000306:	4770      	bx	lr
+
+08000308 <GPIO_WriteBit>:
+ 8000308:	2a00      	cmp	r2, #0
+ 800030a:	d101      	bne.n	8000310 <GPIO_WriteBit+0x8>
+ 800030c:	8341      	strh	r1, [r0, #26]
+ 800030e:	4770      	bx	lr
+ 8000310:	8301      	strh	r1, [r0, #24]
+ 8000312:	e7fc      	b.n	800030e <GPIO_WriteBit+0x6>
+
+08000314 <GPIO_Write>:
+ 8000314:	8281      	strh	r1, [r0, #20]
+ 8000316:	4770      	bx	lr
+
+08000318 <GPIO_ToggleBits>:
+ 8000318:	6943      	ldr	r3, [r0, #20]
+ 800031a:	b29b      	uxth	r3, r3
+ 800031c:	4059      	eors	r1, r3
+ 800031e:	8281      	strh	r1, [r0, #20]
+ 8000320:	4770      	bx	lr
+ 8000322:	46c0      	nop			; (mov r8, r8)
+
+08000324 <GPIO_PinAFConfig>:
+ 8000324:	2307      	movs	r3, #7
+ 8000326:	400b      	ands	r3, r1
+ 8000328:	08c9      	lsrs	r1, r1, #3
+ 800032a:	0089      	lsls	r1, r1, #2
+ 800032c:	1840      	adds	r0, r0, r1
+ 800032e:	b510      	push	{r4, lr}
+ 8000330:	6a01      	ldr	r1, [r0, #32]
+ 8000332:	009b      	lsls	r3, r3, #2
+ 8000334:	240f      	movs	r4, #15
+ 8000336:	409c      	lsls	r4, r3
+ 8000338:	43a1      	bics	r1, r4
+ 800033a:	6201      	str	r1, [r0, #32]
+ 800033c:	6a01      	ldr	r1, [r0, #32]
+ 800033e:	409a      	lsls	r2, r3
+ 8000340:	1c13      	adds	r3, r2, #0
+ 8000342:	430b      	orrs	r3, r1
+ 8000344:	6203      	str	r3, [r0, #32]
+ 8000346:	bd10      	pop	{r4, pc}
+
+08000348 <RCC_DeInit>:
+ 8000348:	4b0c      	ldr	r3, [pc, #48]	; (800037c <RCC_DeInit+0x34>)
+ 800034a:	2280      	movs	r2, #128	; 0x80
+ 800034c:	6819      	ldr	r1, [r3, #0]
+ 800034e:	0052      	lsls	r2, r2, #1
+ 8000350:	430a      	orrs	r2, r1
+ 8000352:	601a      	str	r2, [r3, #0]
+ 8000354:	6899      	ldr	r1, [r3, #8]
+ 8000356:	4a0a      	ldr	r2, [pc, #40]	; (8000380 <RCC_DeInit+0x38>)
+ 8000358:	400a      	ands	r2, r1
+ 800035a:	609a      	str	r2, [r3, #8]
+ 800035c:	6819      	ldr	r1, [r3, #0]
+ 800035e:	4a09      	ldr	r2, [pc, #36]	; (8000384 <RCC_DeInit+0x3c>)
+ 8000360:	400a      	ands	r2, r1
+ 8000362:	601a      	str	r2, [r3, #0]
+ 8000364:	6819      	ldr	r1, [r3, #0]
+ 8000366:	4a08      	ldr	r2, [pc, #32]	; (8000388 <RCC_DeInit+0x40>)
+ 8000368:	400a      	ands	r2, r1
+ 800036a:	601a      	str	r2, [r3, #0]
+ 800036c:	6899      	ldr	r1, [r3, #8]
+ 800036e:	4a07      	ldr	r2, [pc, #28]	; (800038c <RCC_DeInit+0x44>)
+ 8000370:	400a      	ands	r2, r1
+ 8000372:	609a      	str	r2, [r3, #8]
+ 8000374:	2200      	movs	r2, #0
+ 8000376:	60da      	str	r2, [r3, #12]
+ 8000378:	4770      	bx	lr
+ 800037a:	46c0      	nop			; (mov r8, r8)
+ 800037c:	40023800 	.word	0x40023800
+ 8000380:	88ffc00c 	.word	0x88ffc00c
+ 8000384:	eefefffe 	.word	0xeefefffe
+ 8000388:	fffbffff 	.word	0xfffbffff
+ 800038c:	ff02ffff 	.word	0xff02ffff
+
+08000390 <RCC_HSEConfig>:
+ 8000390:	4b02      	ldr	r3, [pc, #8]	; (800039c <RCC_HSEConfig+0xc>)
+ 8000392:	2200      	movs	r2, #0
+ 8000394:	701a      	strb	r2, [r3, #0]
+ 8000396:	7018      	strb	r0, [r3, #0]
+ 8000398:	4770      	bx	lr
+ 800039a:	46c0      	nop			; (mov r8, r8)
+ 800039c:	40023802 	.word	0x40023802
+
+080003a0 <RCC_WaitForHSEStartUp>:
+ 80003a0:	2300      	movs	r3, #0
+ 80003a2:	b082      	sub	sp, #8
+ 80003a4:	9301      	str	r3, [sp, #4]
+ 80003a6:	2280      	movs	r2, #128	; 0x80
+ 80003a8:	23a0      	movs	r3, #160	; 0xa0
+ 80003aa:	490b      	ldr	r1, [pc, #44]	; (80003d8 <RCC_WaitForHSEStartUp+0x38>)
+ 80003ac:	0292      	lsls	r2, r2, #10
+ 80003ae:	00d8      	lsls	r0, r3, #3
+ 80003b0:	680b      	ldr	r3, [r1, #0]
+ 80003b2:	4213      	tst	r3, r2
+ 80003b4:	d10b      	bne.n	80003ce <RCC_WaitForHSEStartUp+0x2e>
+ 80003b6:	9b01      	ldr	r3, [sp, #4]
+ 80003b8:	3301      	adds	r3, #1
+ 80003ba:	9301      	str	r3, [sp, #4]
+ 80003bc:	9b01      	ldr	r3, [sp, #4]
+ 80003be:	4283      	cmp	r3, r0
+ 80003c0:	d1f6      	bne.n	80003b0 <RCC_WaitForHSEStartUp+0x10>
+ 80003c2:	4b05      	ldr	r3, [pc, #20]	; (80003d8 <RCC_WaitForHSEStartUp+0x38>)
+ 80003c4:	6818      	ldr	r0, [r3, #0]
+ 80003c6:	0380      	lsls	r0, r0, #14
+ 80003c8:	0fc0      	lsrs	r0, r0, #31
+ 80003ca:	b002      	add	sp, #8
+ 80003cc:	4770      	bx	lr
+ 80003ce:	9b01      	ldr	r3, [sp, #4]
+ 80003d0:	3301      	adds	r3, #1
+ 80003d2:	9301      	str	r3, [sp, #4]
+ 80003d4:	9b01      	ldr	r3, [sp, #4]
+ 80003d6:	e7f4      	b.n	80003c2 <RCC_WaitForHSEStartUp+0x22>
+ 80003d8:	40023800 	.word	0x40023800
+
+080003dc <RCC_AdjustMSICalibrationValue>:
+ 80003dc:	4b01      	ldr	r3, [pc, #4]	; (80003e4 <RCC_AdjustMSICalibrationValue+0x8>)
+ 80003de:	7018      	strb	r0, [r3, #0]
+ 80003e0:	4770      	bx	lr
+ 80003e2:	46c0      	nop			; (mov r8, r8)
+ 80003e4:	40023807 	.word	0x40023807
+
+080003e8 <RCC_MSIRangeConfig>:
+ 80003e8:	4b03      	ldr	r3, [pc, #12]	; (80003f8 <RCC_MSIRangeConfig+0x10>)
+ 80003ea:	4a04      	ldr	r2, [pc, #16]	; (80003fc <RCC_MSIRangeConfig+0x14>)
+ 80003ec:	6859      	ldr	r1, [r3, #4]
+ 80003ee:	400a      	ands	r2, r1
+ 80003f0:	4310      	orrs	r0, r2
+ 80003f2:	6058      	str	r0, [r3, #4]
+ 80003f4:	4770      	bx	lr
+ 80003f6:	46c0      	nop			; (mov r8, r8)
+ 80003f8:	40023800 	.word	0x40023800
+ 80003fc:	ffff1fff 	.word	0xffff1fff
+
+08000400 <RCC_MSICmd>:
+ 8000400:	4b01      	ldr	r3, [pc, #4]	; (8000408 <RCC_MSICmd+0x8>)
+ 8000402:	6018      	str	r0, [r3, #0]
+ 8000404:	4770      	bx	lr
+ 8000406:	46c0      	nop			; (mov r8, r8)
+ 8000408:	42470020 	.word	0x42470020
+
+0800040c <RCC_AdjustHSICalibrationValue>:
+ 800040c:	4b03      	ldr	r3, [pc, #12]	; (800041c <RCC_AdjustHSICalibrationValue+0x10>)
+ 800040e:	4a04      	ldr	r2, [pc, #16]	; (8000420 <RCC_AdjustHSICalibrationValue+0x14>)
+ 8000410:	6859      	ldr	r1, [r3, #4]
+ 8000412:	0200      	lsls	r0, r0, #8
+ 8000414:	400a      	ands	r2, r1
+ 8000416:	4310      	orrs	r0, r2
+ 8000418:	6058      	str	r0, [r3, #4]
+ 800041a:	4770      	bx	lr
+ 800041c:	40023800 	.word	0x40023800
+ 8000420:	ffffe0ff 	.word	0xffffe0ff
+
+08000424 <RCC_HSICmd>:
+ 8000424:	4b01      	ldr	r3, [pc, #4]	; (800042c <RCC_HSICmd+0x8>)
+ 8000426:	6018      	str	r0, [r3, #0]
+ 8000428:	4770      	bx	lr
+ 800042a:	46c0      	nop			; (mov r8, r8)
+ 800042c:	42470000 	.word	0x42470000
+
+08000430 <RCC_LSEConfig>:
+ 8000430:	4b02      	ldr	r3, [pc, #8]	; (800043c <RCC_LSEConfig+0xc>)
+ 8000432:	2200      	movs	r2, #0
+ 8000434:	701a      	strb	r2, [r3, #0]
+ 8000436:	7018      	strb	r0, [r3, #0]
+ 8000438:	4770      	bx	lr
+ 800043a:	46c0      	nop			; (mov r8, r8)
+ 800043c:	40023835 	.word	0x40023835
+
+08000440 <RCC_LSICmd>:
+ 8000440:	4b01      	ldr	r3, [pc, #4]	; (8000448 <RCC_LSICmd+0x8>)
+ 8000442:	6018      	str	r0, [r3, #0]
+ 8000444:	4770      	bx	lr
+ 8000446:	46c0      	nop			; (mov r8, r8)
+ 8000448:	42470680 	.word	0x42470680
+
+0800044c <RCC_PLLConfig>:
+ 800044c:	4310      	orrs	r0, r2
+ 800044e:	4b02      	ldr	r3, [pc, #8]	; (8000458 <RCC_PLLConfig+0xc>)
+ 8000450:	4301      	orrs	r1, r0
+ 8000452:	7019      	strb	r1, [r3, #0]
+ 8000454:	4770      	bx	lr
+ 8000456:	46c0      	nop			; (mov r8, r8)
+ 8000458:	4002380a 	.word	0x4002380a
+
+0800045c <RCC_PLLCmd>:
+ 800045c:	4b01      	ldr	r3, [pc, #4]	; (8000464 <RCC_PLLCmd+0x8>)
+ 800045e:	6018      	str	r0, [r3, #0]
+ 8000460:	4770      	bx	lr
+ 8000462:	46c0      	nop			; (mov r8, r8)
+ 8000464:	42470060 	.word	0x42470060
+
+08000468 <RCC_ClockSecuritySystemCmd>:
+ 8000468:	4b01      	ldr	r3, [pc, #4]	; (8000470 <RCC_ClockSecuritySystemCmd+0x8>)
+ 800046a:	6018      	str	r0, [r3, #0]
+ 800046c:	4770      	bx	lr
+ 800046e:	46c0      	nop			; (mov r8, r8)
+ 8000470:	42470070 	.word	0x42470070
+
+08000474 <RCC_LSEClockSecuritySystemCmd>:
+ 8000474:	4b01      	ldr	r3, [pc, #4]	; (800047c <RCC_LSEClockSecuritySystemCmd+0x8>)
+ 8000476:	6018      	str	r0, [r3, #0]
+ 8000478:	4770      	bx	lr
+ 800047a:	46c0      	nop			; (mov r8, r8)
+ 800047c:	424706ac 	.word	0x424706ac
+
+08000480 <RCC_MCOConfig>:
+ 8000480:	4b01      	ldr	r3, [pc, #4]	; (8000488 <RCC_MCOConfig+0x8>)
+ 8000482:	4308      	orrs	r0, r1
+ 8000484:	7018      	strb	r0, [r3, #0]
+ 8000486:	4770      	bx	lr
+ 8000488:	4002380b 	.word	0x4002380b
+
+0800048c <RCC_SYSCLKConfig>:
+ 800048c:	4b03      	ldr	r3, [pc, #12]	; (800049c <RCC_SYSCLKConfig+0x10>)
+ 800048e:	2103      	movs	r1, #3
+ 8000490:	689a      	ldr	r2, [r3, #8]
+ 8000492:	438a      	bics	r2, r1
+ 8000494:	4310      	orrs	r0, r2
+ 8000496:	6098      	str	r0, [r3, #8]
+ 8000498:	4770      	bx	lr
+ 800049a:	46c0      	nop			; (mov r8, r8)
+ 800049c:	40023800 	.word	0x40023800
+
+080004a0 <RCC_GetSYSCLKSource>:
+ 80004a0:	4b02      	ldr	r3, [pc, #8]	; (80004ac <RCC_GetSYSCLKSource+0xc>)
+ 80004a2:	200c      	movs	r0, #12
+ 80004a4:	689b      	ldr	r3, [r3, #8]
+ 80004a6:	4018      	ands	r0, r3
+ 80004a8:	4770      	bx	lr
+ 80004aa:	46c0      	nop			; (mov r8, r8)
+ 80004ac:	40023800 	.word	0x40023800
+
+080004b0 <RCC_HCLKConfig>:
+ 80004b0:	4b03      	ldr	r3, [pc, #12]	; (80004c0 <RCC_HCLKConfig+0x10>)
+ 80004b2:	21f0      	movs	r1, #240	; 0xf0
+ 80004b4:	689a      	ldr	r2, [r3, #8]
+ 80004b6:	438a      	bics	r2, r1
+ 80004b8:	4310      	orrs	r0, r2
+ 80004ba:	6098      	str	r0, [r3, #8]
+ 80004bc:	4770      	bx	lr
+ 80004be:	46c0      	nop			; (mov r8, r8)
+ 80004c0:	40023800 	.word	0x40023800
+
+080004c4 <RCC_PCLK1Config>:
+ 80004c4:	4b03      	ldr	r3, [pc, #12]	; (80004d4 <RCC_PCLK1Config+0x10>)
+ 80004c6:	4a04      	ldr	r2, [pc, #16]	; (80004d8 <RCC_PCLK1Config+0x14>)
+ 80004c8:	6899      	ldr	r1, [r3, #8]
+ 80004ca:	400a      	ands	r2, r1
+ 80004cc:	4310      	orrs	r0, r2
+ 80004ce:	6098      	str	r0, [r3, #8]
+ 80004d0:	4770      	bx	lr
+ 80004d2:	46c0      	nop			; (mov r8, r8)
+ 80004d4:	40023800 	.word	0x40023800
+ 80004d8:	fffff8ff 	.word	0xfffff8ff
+
+080004dc <RCC_PCLK2Config>:
+ 80004dc:	4b03      	ldr	r3, [pc, #12]	; (80004ec <RCC_PCLK2Config+0x10>)
+ 80004de:	4a04      	ldr	r2, [pc, #16]	; (80004f0 <RCC_PCLK2Config+0x14>)
+ 80004e0:	6899      	ldr	r1, [r3, #8]
+ 80004e2:	00c0      	lsls	r0, r0, #3
+ 80004e4:	400a      	ands	r2, r1
+ 80004e6:	4310      	orrs	r0, r2
+ 80004e8:	6098      	str	r0, [r3, #8]
+ 80004ea:	4770      	bx	lr
+ 80004ec:	40023800 	.word	0x40023800
+ 80004f0:	ffffc7ff 	.word	0xffffc7ff
+
+080004f4 <RCC_GetClocksFreq>:
+ 80004f4:	4a29      	ldr	r2, [pc, #164]	; (800059c <RCC_GetClocksFreq+0xa8>)
+ 80004f6:	b538      	push	{r3, r4, r5, lr}
+ 80004f8:	6893      	ldr	r3, [r2, #8]
+ 80004fa:	210c      	movs	r1, #12
+ 80004fc:	1c04      	adds	r4, r0, #0
+ 80004fe:	400b      	ands	r3, r1
+ 8000500:	2b04      	cmp	r3, #4
+ 8000502:	d041      	beq.n	8000588 <RCC_GetClocksFreq+0x94>
+ 8000504:	d931      	bls.n	800056a <RCC_GetClocksFreq+0x76>
+ 8000506:	2b08      	cmp	r3, #8
+ 8000508:	d014      	beq.n	8000534 <RCC_GetClocksFreq+0x40>
+ 800050a:	2b0c      	cmp	r3, #12
+ 800050c:	d139      	bne.n	8000582 <RCC_GetClocksFreq+0x8e>
+ 800050e:	6893      	ldr	r3, [r2, #8]
+ 8000510:	4d23      	ldr	r5, [pc, #140]	; (80005a0 <RCC_GetClocksFreq+0xac>)
+ 8000512:	6891      	ldr	r1, [r2, #8]
+ 8000514:	029b      	lsls	r3, r3, #10
+ 8000516:	0f1b      	lsrs	r3, r3, #28
+ 8000518:	5ceb      	ldrb	r3, [r5, r3]
+ 800051a:	0209      	lsls	r1, r1, #8
+ 800051c:	6892      	ldr	r2, [r2, #8]
+ 800051e:	0f89      	lsrs	r1, r1, #30
+ 8000520:	b2db      	uxtb	r3, r3
+ 8000522:	3101      	adds	r1, #1
+ 8000524:	03d0      	lsls	r0, r2, #15
+ 8000526:	d433      	bmi.n	8000590 <RCC_GetClocksFreq+0x9c>
+ 8000528:	481e      	ldr	r0, [pc, #120]	; (80005a4 <RCC_GetClocksFreq+0xb0>)
+ 800052a:	4358      	muls	r0, r3
+ 800052c:	f000 f90e 	bl	800074c <__aeabi_uidiv>
+ 8000530:	6020      	str	r0, [r4, #0]
+ 8000532:	e002      	b.n	800053a <RCC_GetClocksFreq+0x46>
+ 8000534:	481c      	ldr	r0, [pc, #112]	; (80005a8 <RCC_GetClocksFreq+0xb4>)
+ 8000536:	4d1a      	ldr	r5, [pc, #104]	; (80005a0 <RCC_GetClocksFreq+0xac>)
+ 8000538:	6020      	str	r0, [r4, #0]
+ 800053a:	4b18      	ldr	r3, [pc, #96]	; (800059c <RCC_GetClocksFreq+0xa8>)
+ 800053c:	689a      	ldr	r2, [r3, #8]
+ 800053e:	0612      	lsls	r2, r2, #24
+ 8000540:	0f12      	lsrs	r2, r2, #28
+ 8000542:	18aa      	adds	r2, r5, r2
+ 8000544:	7b12      	ldrb	r2, [r2, #12]
+ 8000546:	40d0      	lsrs	r0, r2
+ 8000548:	6060      	str	r0, [r4, #4]
+ 800054a:	689a      	ldr	r2, [r3, #8]
+ 800054c:	1c01      	adds	r1, r0, #0
+ 800054e:	0552      	lsls	r2, r2, #21
+ 8000550:	0f52      	lsrs	r2, r2, #29
+ 8000552:	18aa      	adds	r2, r5, r2
+ 8000554:	7b12      	ldrb	r2, [r2, #12]
+ 8000556:	40d1      	lsrs	r1, r2
+ 8000558:	60a1      	str	r1, [r4, #8]
+ 800055a:	689b      	ldr	r3, [r3, #8]
+ 800055c:	049b      	lsls	r3, r3, #18
+ 800055e:	0f5b      	lsrs	r3, r3, #29
+ 8000560:	18ed      	adds	r5, r5, r3
+ 8000562:	7b2b      	ldrb	r3, [r5, #12]
+ 8000564:	40d8      	lsrs	r0, r3
+ 8000566:	60e0      	str	r0, [r4, #12]
+ 8000568:	bd38      	pop	{r3, r4, r5, pc}
+ 800056a:	2b00      	cmp	r3, #0
+ 800056c:	d109      	bne.n	8000582 <RCC_GetClocksFreq+0x8e>
+ 800056e:	6853      	ldr	r3, [r2, #4]
+ 8000570:	041b      	lsls	r3, r3, #16
+ 8000572:	0f5b      	lsrs	r3, r3, #29
+ 8000574:	2080      	movs	r0, #128	; 0x80
+ 8000576:	3301      	adds	r3, #1
+ 8000578:	0200      	lsls	r0, r0, #8
+ 800057a:	4098      	lsls	r0, r3
+ 800057c:	6020      	str	r0, [r4, #0]
+ 800057e:	4d08      	ldr	r5, [pc, #32]	; (80005a0 <RCC_GetClocksFreq+0xac>)
+ 8000580:	e7db      	b.n	800053a <RCC_GetClocksFreq+0x46>
+ 8000582:	4b06      	ldr	r3, [pc, #24]	; (800059c <RCC_GetClocksFreq+0xa8>)
+ 8000584:	685b      	ldr	r3, [r3, #4]
+ 8000586:	e7f3      	b.n	8000570 <RCC_GetClocksFreq+0x7c>
+ 8000588:	4806      	ldr	r0, [pc, #24]	; (80005a4 <RCC_GetClocksFreq+0xb0>)
+ 800058a:	4d05      	ldr	r5, [pc, #20]	; (80005a0 <RCC_GetClocksFreq+0xac>)
+ 800058c:	6020      	str	r0, [r4, #0]
+ 800058e:	e7d4      	b.n	800053a <RCC_GetClocksFreq+0x46>
+ 8000590:	4805      	ldr	r0, [pc, #20]	; (80005a8 <RCC_GetClocksFreq+0xb4>)
+ 8000592:	4358      	muls	r0, r3
+ 8000594:	f000 f8da 	bl	800074c <__aeabi_uidiv>
+ 8000598:	6020      	str	r0, [r4, #0]
+ 800059a:	e7ce      	b.n	800053a <RCC_GetClocksFreq+0x46>
+ 800059c:	40023800 	.word	0x40023800
+ 80005a0:	20000000 	.word	0x20000000
+ 80005a4:	00f42400 	.word	0x00f42400
+ 80005a8:	007a1200 	.word	0x007a1200
+
+080005ac <RCC_RTCCLKConfig>:
+ 80005ac:	23c0      	movs	r3, #192	; 0xc0
+ 80005ae:	029b      	lsls	r3, r3, #10
+ 80005b0:	1c02      	adds	r2, r0, #0
+ 80005b2:	b510      	push	{r4, lr}
+ 80005b4:	401a      	ands	r2, r3
+ 80005b6:	429a      	cmp	r2, r3
+ 80005b8:	d108      	bne.n	80005cc <RCC_RTCCLKConfig+0x20>
+ 80005ba:	4b09      	ldr	r3, [pc, #36]	; (80005e0 <RCC_RTCCLKConfig+0x34>)
+ 80005bc:	4909      	ldr	r1, [pc, #36]	; (80005e4 <RCC_RTCCLKConfig+0x38>)
+ 80005be:	681c      	ldr	r4, [r3, #0]
+ 80005c0:	4021      	ands	r1, r4
+ 80005c2:	24c0      	movs	r4, #192	; 0xc0
+ 80005c4:	05e4      	lsls	r4, r4, #23
+ 80005c6:	4020      	ands	r0, r4
+ 80005c8:	4308      	orrs	r0, r1
+ 80005ca:	6018      	str	r0, [r3, #0]
+ 80005cc:	4b04      	ldr	r3, [pc, #16]	; (80005e0 <RCC_RTCCLKConfig+0x34>)
+ 80005ce:	4906      	ldr	r1, [pc, #24]	; (80005e8 <RCC_RTCCLKConfig+0x3c>)
+ 80005d0:	6b58      	ldr	r0, [r3, #52]	; 0x34
+ 80005d2:	4001      	ands	r1, r0
+ 80005d4:	6359      	str	r1, [r3, #52]	; 0x34
+ 80005d6:	6b59      	ldr	r1, [r3, #52]	; 0x34
+ 80005d8:	430a      	orrs	r2, r1
+ 80005da:	635a      	str	r2, [r3, #52]	; 0x34
+ 80005dc:	bd10      	pop	{r4, pc}
+ 80005de:	46c0      	nop			; (mov r8, r8)
+ 80005e0:	40023800 	.word	0x40023800
+ 80005e4:	9fffffff 	.word	0x9fffffff
+ 80005e8:	fffcffff 	.word	0xfffcffff
+
+080005ec <RCC_RTCCLKCmd>:
+ 80005ec:	4b01      	ldr	r3, [pc, #4]	; (80005f4 <RCC_RTCCLKCmd+0x8>)
+ 80005ee:	6018      	str	r0, [r3, #0]
+ 80005f0:	4770      	bx	lr
+ 80005f2:	46c0      	nop			; (mov r8, r8)
+ 80005f4:	424706d8 	.word	0x424706d8
+
+080005f8 <RCC_RTCResetCmd>:
+ 80005f8:	4b01      	ldr	r3, [pc, #4]	; (8000600 <RCC_RTCResetCmd+0x8>)
+ 80005fa:	6018      	str	r0, [r3, #0]
+ 80005fc:	4770      	bx	lr
+ 80005fe:	46c0      	nop			; (mov r8, r8)
+ 8000600:	424706dc 	.word	0x424706dc
+
+08000604 <RCC_AHBPeriphClockCmd>:
+ 8000604:	4b04      	ldr	r3, [pc, #16]	; (8000618 <RCC_AHBPeriphClockCmd+0x14>)
+ 8000606:	69da      	ldr	r2, [r3, #28]
+ 8000608:	2900      	cmp	r1, #0
+ 800060a:	d102      	bne.n	8000612 <RCC_AHBPeriphClockCmd+0xe>
+ 800060c:	4382      	bics	r2, r0
+ 800060e:	61da      	str	r2, [r3, #28]
+ 8000610:	4770      	bx	lr
+ 8000612:	4310      	orrs	r0, r2
+ 8000614:	61d8      	str	r0, [r3, #28]
+ 8000616:	e7fb      	b.n	8000610 <RCC_AHBPeriphClockCmd+0xc>
+ 8000618:	40023800 	.word	0x40023800
+
+0800061c <RCC_APB2PeriphClockCmd>:
+ 800061c:	4b04      	ldr	r3, [pc, #16]	; (8000630 <RCC_APB2PeriphClockCmd+0x14>)
+ 800061e:	6a1a      	ldr	r2, [r3, #32]
+ 8000620:	2900      	cmp	r1, #0
+ 8000622:	d102      	bne.n	800062a <RCC_APB2PeriphClockCmd+0xe>
+ 8000624:	4382      	bics	r2, r0
+ 8000626:	621a      	str	r2, [r3, #32]
+ 8000628:	4770      	bx	lr
+ 800062a:	4310      	orrs	r0, r2
+ 800062c:	6218      	str	r0, [r3, #32]
+ 800062e:	e7fb      	b.n	8000628 <RCC_APB2PeriphClockCmd+0xc>
+ 8000630:	40023800 	.word	0x40023800
+
+08000634 <RCC_APB1PeriphClockCmd>:
+ 8000634:	4b04      	ldr	r3, [pc, #16]	; (8000648 <RCC_APB1PeriphClockCmd+0x14>)
+ 8000636:	6a5a      	ldr	r2, [r3, #36]	; 0x24
+ 8000638:	2900      	cmp	r1, #0
+ 800063a:	d102      	bne.n	8000642 <RCC_APB1PeriphClockCmd+0xe>
+ 800063c:	4382      	bics	r2, r0
+ 800063e:	625a      	str	r2, [r3, #36]	; 0x24
+ 8000640:	4770      	bx	lr
+ 8000642:	4310      	orrs	r0, r2
+ 8000644:	6258      	str	r0, [r3, #36]	; 0x24
+ 8000646:	e7fb      	b.n	8000640 <RCC_APB1PeriphClockCmd+0xc>
+ 8000648:	40023800 	.word	0x40023800
+
+0800064c <RCC_AHBPeriphResetCmd>:
+ 800064c:	4b04      	ldr	r3, [pc, #16]	; (8000660 <RCC_AHBPeriphResetCmd+0x14>)
+ 800064e:	691a      	ldr	r2, [r3, #16]
+ 8000650:	2900      	cmp	r1, #0
+ 8000652:	d102      	bne.n	800065a <RCC_AHBPeriphResetCmd+0xe>
+ 8000654:	4382      	bics	r2, r0
+ 8000656:	611a      	str	r2, [r3, #16]
+ 8000658:	4770      	bx	lr
+ 800065a:	4310      	orrs	r0, r2
+ 800065c:	6118      	str	r0, [r3, #16]
+ 800065e:	e7fb      	b.n	8000658 <RCC_AHBPeriphResetCmd+0xc>
+ 8000660:	40023800 	.word	0x40023800
+
+08000664 <RCC_APB2PeriphResetCmd>:
+ 8000664:	4b04      	ldr	r3, [pc, #16]	; (8000678 <RCC_APB2PeriphResetCmd+0x14>)
+ 8000666:	695a      	ldr	r2, [r3, #20]
+ 8000668:	2900      	cmp	r1, #0
+ 800066a:	d102      	bne.n	8000672 <RCC_APB2PeriphResetCmd+0xe>
+ 800066c:	4382      	bics	r2, r0
+ 800066e:	615a      	str	r2, [r3, #20]
+ 8000670:	4770      	bx	lr
+ 8000672:	4310      	orrs	r0, r2
+ 8000674:	6158      	str	r0, [r3, #20]
+ 8000676:	e7fb      	b.n	8000670 <RCC_APB2PeriphResetCmd+0xc>
+ 8000678:	40023800 	.word	0x40023800
+
+0800067c <RCC_APB1PeriphResetCmd>:
+ 800067c:	4b04      	ldr	r3, [pc, #16]	; (8000690 <RCC_APB1PeriphResetCmd+0x14>)
+ 800067e:	699a      	ldr	r2, [r3, #24]
+ 8000680:	2900      	cmp	r1, #0
+ 8000682:	d102      	bne.n	800068a <RCC_APB1PeriphResetCmd+0xe>
+ 8000684:	4382      	bics	r2, r0
+ 8000686:	619a      	str	r2, [r3, #24]
+ 8000688:	4770      	bx	lr
+ 800068a:	4310      	orrs	r0, r2
+ 800068c:	6198      	str	r0, [r3, #24]
+ 800068e:	e7fb      	b.n	8000688 <RCC_APB1PeriphResetCmd+0xc>
+ 8000690:	40023800 	.word	0x40023800
+
+08000694 <RCC_AHBPeriphClockLPModeCmd>:
+ 8000694:	4b04      	ldr	r3, [pc, #16]	; (80006a8 <RCC_AHBPeriphClockLPModeCmd+0x14>)
+ 8000696:	6a9a      	ldr	r2, [r3, #40]	; 0x28
+ 8000698:	2900      	cmp	r1, #0
+ 800069a:	d102      	bne.n	80006a2 <RCC_AHBPeriphClockLPModeCmd+0xe>
+ 800069c:	4382      	bics	r2, r0
+ 800069e:	629a      	str	r2, [r3, #40]	; 0x28
+ 80006a0:	4770      	bx	lr
+ 80006a2:	4310      	orrs	r0, r2
+ 80006a4:	6298      	str	r0, [r3, #40]	; 0x28
+ 80006a6:	e7fb      	b.n	80006a0 <RCC_AHBPeriphClockLPModeCmd+0xc>
+ 80006a8:	40023800 	.word	0x40023800
+
+080006ac <RCC_APB2PeriphClockLPModeCmd>:
+ 80006ac:	4b04      	ldr	r3, [pc, #16]	; (80006c0 <RCC_APB2PeriphClockLPModeCmd+0x14>)
+ 80006ae:	6ada      	ldr	r2, [r3, #44]	; 0x2c
+ 80006b0:	2900      	cmp	r1, #0
+ 80006b2:	d102      	bne.n	80006ba <RCC_APB2PeriphClockLPModeCmd+0xe>
+ 80006b4:	4382      	bics	r2, r0
+ 80006b6:	62da      	str	r2, [r3, #44]	; 0x2c
+ 80006b8:	4770      	bx	lr
+ 80006ba:	4310      	orrs	r0, r2
+ 80006bc:	62d8      	str	r0, [r3, #44]	; 0x2c
+ 80006be:	e7fb      	b.n	80006b8 <RCC_APB2PeriphClockLPModeCmd+0xc>
+ 80006c0:	40023800 	.word	0x40023800
+
+080006c4 <RCC_APB1PeriphClockLPModeCmd>:
+ 80006c4:	4b04      	ldr	r3, [pc, #16]	; (80006d8 <RCC_APB1PeriphClockLPModeCmd+0x14>)
+ 80006c6:	6b1a      	ldr	r2, [r3, #48]	; 0x30
+ 80006c8:	2900      	cmp	r1, #0
+ 80006ca:	d102      	bne.n	80006d2 <RCC_APB1PeriphClockLPModeCmd+0xe>
+ 80006cc:	4382      	bics	r2, r0
+ 80006ce:	631a      	str	r2, [r3, #48]	; 0x30
+ 80006d0:	4770      	bx	lr
+ 80006d2:	4310      	orrs	r0, r2
+ 80006d4:	6318      	str	r0, [r3, #48]	; 0x30
+ 80006d6:	e7fb      	b.n	80006d0 <RCC_APB1PeriphClockLPModeCmd+0xc>
+ 80006d8:	40023800 	.word	0x40023800
+
+080006dc <RCC_ITConfig>:
+ 80006dc:	4b04      	ldr	r3, [pc, #16]	; (80006f0 <RCC_ITConfig+0x14>)
+ 80006de:	781a      	ldrb	r2, [r3, #0]
+ 80006e0:	2900      	cmp	r1, #0
+ 80006e2:	d102      	bne.n	80006ea <RCC_ITConfig+0xe>
+ 80006e4:	4382      	bics	r2, r0
+ 80006e6:	701a      	strb	r2, [r3, #0]
+ 80006e8:	4770      	bx	lr
+ 80006ea:	4310      	orrs	r0, r2
+ 80006ec:	7018      	strb	r0, [r3, #0]
+ 80006ee:	e7fb      	b.n	80006e8 <RCC_ITConfig+0xc>
+ 80006f0:	4002380d 	.word	0x4002380d
+
+080006f4 <RCC_GetFlagStatus>:
+ 80006f4:	0943      	lsrs	r3, r0, #5
+ 80006f6:	2b01      	cmp	r3, #1
+ 80006f8:	d008      	beq.n	800070c <RCC_GetFlagStatus+0x18>
+ 80006fa:	4b06      	ldr	r3, [pc, #24]	; (8000714 <RCC_GetFlagStatus+0x20>)
+ 80006fc:	6b5b      	ldr	r3, [r3, #52]	; 0x34
+ 80006fe:	221f      	movs	r2, #31
+ 8000700:	4010      	ands	r0, r2
+ 8000702:	40c3      	lsrs	r3, r0
+ 8000704:	1c18      	adds	r0, r3, #0
+ 8000706:	2301      	movs	r3, #1
+ 8000708:	4018      	ands	r0, r3
+ 800070a:	4770      	bx	lr
+ 800070c:	4b01      	ldr	r3, [pc, #4]	; (8000714 <RCC_GetFlagStatus+0x20>)
+ 800070e:	681b      	ldr	r3, [r3, #0]
+ 8000710:	e7f5      	b.n	80006fe <RCC_GetFlagStatus+0xa>
+ 8000712:	46c0      	nop			; (mov r8, r8)
+ 8000714:	40023800 	.word	0x40023800
+
+08000718 <RCC_ClearFlag>:
+ 8000718:	4b03      	ldr	r3, [pc, #12]	; (8000728 <RCC_ClearFlag+0x10>)
+ 800071a:	2280      	movs	r2, #128	; 0x80
+ 800071c:	6b59      	ldr	r1, [r3, #52]	; 0x34
+ 800071e:	0452      	lsls	r2, r2, #17
+ 8000720:	430a      	orrs	r2, r1
+ 8000722:	635a      	str	r2, [r3, #52]	; 0x34
+ 8000724:	4770      	bx	lr
+ 8000726:	46c0      	nop			; (mov r8, r8)
+ 8000728:	40023800 	.word	0x40023800
+
+0800072c <RCC_GetITStatus>:
+ 800072c:	4b03      	ldr	r3, [pc, #12]	; (800073c <RCC_GetITStatus+0x10>)
+ 800072e:	68db      	ldr	r3, [r3, #12]
+ 8000730:	4018      	ands	r0, r3
+ 8000732:	1e43      	subs	r3, r0, #1
+ 8000734:	4198      	sbcs	r0, r3
+ 8000736:	b2c0      	uxtb	r0, r0
+ 8000738:	4770      	bx	lr
+ 800073a:	46c0      	nop			; (mov r8, r8)
+ 800073c:	40023800 	.word	0x40023800
+
+08000740 <RCC_ClearITPendingBit>:
+ 8000740:	4b01      	ldr	r3, [pc, #4]	; (8000748 <RCC_ClearITPendingBit+0x8>)
+ 8000742:	7018      	strb	r0, [r3, #0]
+ 8000744:	4770      	bx	lr
+ 8000746:	46c0      	nop			; (mov r8, r8)
+ 8000748:	4002380e 	.word	0x4002380e
+
+0800074c <__aeabi_uidiv>:
+ 800074c:	2900      	cmp	r1, #0
+ 800074e:	d034      	beq.n	80007ba <.udivsi3_skip_div0_test+0x6a>
+
+08000750 <.udivsi3_skip_div0_test>:
+ 8000750:	2301      	movs	r3, #1
+ 8000752:	2200      	movs	r2, #0
+ 8000754:	b410      	push	{r4}
+ 8000756:	4288      	cmp	r0, r1
+ 8000758:	d32c      	bcc.n	80007b4 <.udivsi3_skip_div0_test+0x64>
+ 800075a:	2401      	movs	r4, #1
+ 800075c:	0724      	lsls	r4, r4, #28
+ 800075e:	42a1      	cmp	r1, r4
+ 8000760:	d204      	bcs.n	800076c <.udivsi3_skip_div0_test+0x1c>
+ 8000762:	4281      	cmp	r1, r0
+ 8000764:	d202      	bcs.n	800076c <.udivsi3_skip_div0_test+0x1c>
+ 8000766:	0109      	lsls	r1, r1, #4
+ 8000768:	011b      	lsls	r3, r3, #4
+ 800076a:	e7f8      	b.n	800075e <.udivsi3_skip_div0_test+0xe>
+ 800076c:	00e4      	lsls	r4, r4, #3
+ 800076e:	42a1      	cmp	r1, r4
+ 8000770:	d204      	bcs.n	800077c <.udivsi3_skip_div0_test+0x2c>
+ 8000772:	4281      	cmp	r1, r0
+ 8000774:	d202      	bcs.n	800077c <.udivsi3_skip_div0_test+0x2c>
+ 8000776:	0049      	lsls	r1, r1, #1
+ 8000778:	005b      	lsls	r3, r3, #1
+ 800077a:	e7f8      	b.n	800076e <.udivsi3_skip_div0_test+0x1e>
+ 800077c:	4288      	cmp	r0, r1
+ 800077e:	d301      	bcc.n	8000784 <.udivsi3_skip_div0_test+0x34>
+ 8000780:	1a40      	subs	r0, r0, r1
+ 8000782:	431a      	orrs	r2, r3
+ 8000784:	084c      	lsrs	r4, r1, #1
+ 8000786:	42a0      	cmp	r0, r4
+ 8000788:	d302      	bcc.n	8000790 <.udivsi3_skip_div0_test+0x40>
+ 800078a:	1b00      	subs	r0, r0, r4
+ 800078c:	085c      	lsrs	r4, r3, #1
+ 800078e:	4322      	orrs	r2, r4
+ 8000790:	088c      	lsrs	r4, r1, #2
+ 8000792:	42a0      	cmp	r0, r4
+ 8000794:	d302      	bcc.n	800079c <.udivsi3_skip_div0_test+0x4c>
+ 8000796:	1b00      	subs	r0, r0, r4
+ 8000798:	089c      	lsrs	r4, r3, #2
+ 800079a:	4322      	orrs	r2, r4
+ 800079c:	08cc      	lsrs	r4, r1, #3
+ 800079e:	42a0      	cmp	r0, r4
+ 80007a0:	d302      	bcc.n	80007a8 <.udivsi3_skip_div0_test+0x58>
+ 80007a2:	1b00      	subs	r0, r0, r4
+ 80007a4:	08dc      	lsrs	r4, r3, #3
+ 80007a6:	4322      	orrs	r2, r4
+ 80007a8:	2800      	cmp	r0, #0
+ 80007aa:	d003      	beq.n	80007b4 <.udivsi3_skip_div0_test+0x64>
+ 80007ac:	091b      	lsrs	r3, r3, #4
+ 80007ae:	d001      	beq.n	80007b4 <.udivsi3_skip_div0_test+0x64>
+ 80007b0:	0909      	lsrs	r1, r1, #4
+ 80007b2:	e7e3      	b.n	800077c <.udivsi3_skip_div0_test+0x2c>
+ 80007b4:	1c10      	adds	r0, r2, #0
+ 80007b6:	bc10      	pop	{r4}
+ 80007b8:	4770      	bx	lr
+ 80007ba:	2800      	cmp	r0, #0
+ 80007bc:	d001      	beq.n	80007c2 <.udivsi3_skip_div0_test+0x72>
+ 80007be:	2000      	movs	r0, #0
+ 80007c0:	43c0      	mvns	r0, r0
+ 80007c2:	b407      	push	{r0, r1, r2}
+ 80007c4:	4802      	ldr	r0, [pc, #8]	; (80007d0 <.udivsi3_skip_div0_test+0x80>)
+ 80007c6:	a102      	add	r1, pc, #8	; (adr r1, 80007d0 <.udivsi3_skip_div0_test+0x80>)
+ 80007c8:	1840      	adds	r0, r0, r1
+ 80007ca:	9002      	str	r0, [sp, #8]
+ 80007cc:	bd03      	pop	{r0, r1, pc}
+ 80007ce:	46c0      	nop			; (mov r8, r8)
+ 80007d0:	00000019 	.word	0x00000019
+
+080007d4 <__aeabi_uidivmod>:
+ 80007d4:	2900      	cmp	r1, #0
+ 80007d6:	d0f0      	beq.n	80007ba <.udivsi3_skip_div0_test+0x6a>
+ 80007d8:	b503      	push	{r0, r1, lr}
+ 80007da:	f7ff ffb9 	bl	8000750 <.udivsi3_skip_div0_test>
+ 80007de:	bc0e      	pop	{r1, r2, r3}
+ 80007e0:	4342      	muls	r2, r0
+ 80007e2:	1a89      	subs	r1, r1, r2
+ 80007e4:	4718      	bx	r3
+ 80007e6:	46c0      	nop			; (mov r8, r8)
+
+080007e8 <__aeabi_idiv0>:
+ 80007e8:	4770      	bx	lr
+ 80007ea:	46c0      	nop			; (mov r8, r8)
+
+080007ec <gpioInit>:
+
+  // set pll as clock
+  RCC_SYSCLKConfig(RCC_SYSCLKSource_PLLCLK);
+}
+
+void gpioInit(){
+ 80007ec:	b5f7      	push	{r0, r1, r2, r4, r5, r6, r7, lr}
+   //--------------------------GPIO init ----------------------------//
+  //--------output---------//
+  GPIO_InitTypeDef gpio;
+  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
+ 80007ee:	2001      	movs	r0, #1
+  GPIO_StructInit(&gpio);
+  gpio.GPIO_Pin = GPIO_Pin_2; // bitbang output
+  gpio.GPIO_Mode = GPIO_Mode_OUT;
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+  gpio.GPIO_PuPd = GPIO_PuPd_UP;
+  GPIO_Init(GPIOA, &gpio);
+ 80007f0:	4d17      	ldr	r5, [pc, #92]	; (8000850 <gpioInit+0x64>)
+
+void gpioInit(){
+   //--------------------------GPIO init ----------------------------//
+  //--------output---------//
+  GPIO_InitTypeDef gpio;
+  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
+ 80007f2:	1c01      	adds	r1, r0, #0
+ 80007f4:	f7ff ff06 	bl	8000604 <RCC_AHBPeriphClockCmd>
+
+  GPIO_StructInit(&gpio);
+ 80007f8:	4668      	mov	r0, sp
+ 80007fa:	f7ff fd51 	bl	80002a0 <GPIO_StructInit>
+  gpio.GPIO_Pin = GPIO_Pin_2; // bitbang output
+  gpio.GPIO_Mode = GPIO_Mode_OUT;
+ 80007fe:	2401      	movs	r4, #1
+ 8000800:	466a      	mov	r2, sp
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+ 8000802:	2603      	movs	r6, #3
+  gpio.GPIO_PuPd = GPIO_PuPd_UP;
+  GPIO_Init(GPIOA, &gpio);
+ 8000804:	1c28      	adds	r0, r5, #0
+  //--------output---------//
+  GPIO_InitTypeDef gpio;
+  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
+
+  GPIO_StructInit(&gpio);
+  gpio.GPIO_Pin = GPIO_Pin_2; // bitbang output
+ 8000806:	2304      	movs	r3, #4
+  gpio.GPIO_Mode = GPIO_Mode_OUT;
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+  gpio.GPIO_PuPd = GPIO_PuPd_UP;
+  GPIO_Init(GPIOA, &gpio);
+ 8000808:	4669      	mov	r1, sp
+  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
+
+  GPIO_StructInit(&gpio);
+  gpio.GPIO_Pin = GPIO_Pin_2; // bitbang output
+  gpio.GPIO_Mode = GPIO_Mode_OUT;
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+ 800080a:	7156      	strb	r6, [r2, #5]
+  //--------output---------//
+  GPIO_InitTypeDef gpio;
+  RCC_AHBPeriphClockCmd(RCC_AHBPeriph_GPIOA, ENABLE);
+
+  GPIO_StructInit(&gpio);
+  gpio.GPIO_Pin = GPIO_Pin_2; // bitbang output
+ 800080c:	9300      	str	r3, [sp, #0]
+  gpio.GPIO_Mode = GPIO_Mode_OUT;
+ 800080e:	7114      	strb	r4, [r2, #4]
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+  gpio.GPIO_PuPd = GPIO_PuPd_UP;
+ 8000810:	71d4      	strb	r4, [r2, #7]
+  GPIO_Init(GPIOA, &gpio);
+ 8000812:	f7ff fced 	bl	80001f0 <GPIO_Init>
+
+  //PA3 is associated with TIM2_CH4
+  gpio.GPIO_Pin =  GPIO_Pin_3; //pwm output
+ 8000816:	2308      	movs	r3, #8
+  gpio.GPIO_Mode = GPIO_Mode_AF;                //set pin mode to use an alternate function (AF)
+  gpio.GPIO_OType = GPIO_OType_PP;              //who knows, think its 'push-pull mode'
+ 8000818:	2700      	movs	r7, #0
+  gpio.GPIO_PuPd  = GPIO_PuPd_UP;
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+
+  GPIO_Init(GPIOA, &gpio);
+ 800081a:	1c28      	adds	r0, r5, #0
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+  gpio.GPIO_PuPd = GPIO_PuPd_UP;
+  GPIO_Init(GPIOA, &gpio);
+
+  //PA3 is associated with TIM2_CH4
+  gpio.GPIO_Pin =  GPIO_Pin_3; //pwm output
+ 800081c:	9300      	str	r3, [sp, #0]
+  gpio.GPIO_Mode = GPIO_Mode_AF;                //set pin mode to use an alternate function (AF)
+ 800081e:	2202      	movs	r2, #2
+ 8000820:	466b      	mov	r3, sp
+  gpio.GPIO_OType = GPIO_OType_PP;              //who knows, think its 'push-pull mode'
+  gpio.GPIO_PuPd  = GPIO_PuPd_UP;
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+
+  GPIO_Init(GPIOA, &gpio);
+ 8000822:	4669      	mov	r1, sp
+  GPIO_Init(GPIOA, &gpio);
+
+  //PA3 is associated with TIM2_CH4
+  gpio.GPIO_Pin =  GPIO_Pin_3; //pwm output
+  gpio.GPIO_Mode = GPIO_Mode_AF;                //set pin mode to use an alternate function (AF)
+  gpio.GPIO_OType = GPIO_OType_PP;              //who knows, think its 'push-pull mode'
+ 8000824:	719f      	strb	r7, [r3, #6]
+  gpio.GPIO_PuPd  = GPIO_PuPd_UP;
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+ 8000826:	715e      	strb	r6, [r3, #5]
+  gpio.GPIO_PuPd = GPIO_PuPd_UP;
+  GPIO_Init(GPIOA, &gpio);
+
+  //PA3 is associated with TIM2_CH4
+  gpio.GPIO_Pin =  GPIO_Pin_3; //pwm output
+  gpio.GPIO_Mode = GPIO_Mode_AF;                //set pin mode to use an alternate function (AF)
+ 8000828:	711a      	strb	r2, [r3, #4]
+  gpio.GPIO_OType = GPIO_OType_PP;              //who knows, think its 'push-pull mode'
+  gpio.GPIO_PuPd  = GPIO_PuPd_UP;
+ 800082a:	71dc      	strb	r4, [r3, #7]
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+
+  GPIO_Init(GPIOA, &gpio);
+ 800082c:	f7ff fce0 	bl	80001f0 <GPIO_Init>
+  GPIO_PinAFConfig(GPIOA, GPIO_PinSource3, GPIO_AF_TIM2);     //configure alternate function to us TIM2
+ 8000830:	1c28      	adds	r0, r5, #0
+ 8000832:	1c31      	adds	r1, r6, #0
+ 8000834:	1c22      	adds	r2, r4, #0
+ 8000836:	f7ff fd75 	bl	8000324 <GPIO_PinAFConfig>
+
+   //--------input---------//
+
+  gpio.GPIO_Pin = GPIO_Pin_0; 
+  gpio.GPIO_Mode = GPIO_Mode_IN;
+ 800083a:	466b      	mov	r3, sp
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+  gpio.GPIO_PuPd = GPIO_PuPd_DOWN;
+ 800083c:	2202      	movs	r2, #2
+  GPIO_Init(GPIOA, &gpio);
+ 800083e:	1c28      	adds	r0, r5, #0
+ 8000840:	4669      	mov	r1, sp
+  GPIO_PinAFConfig(GPIOA, GPIO_PinSource3, GPIO_AF_TIM2);     //configure alternate function to us TIM2
+
+   //--------input---------//
+
+  gpio.GPIO_Pin = GPIO_Pin_0; 
+  gpio.GPIO_Mode = GPIO_Mode_IN;
+ 8000842:	711f      	strb	r7, [r3, #4]
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+ 8000844:	715e      	strb	r6, [r3, #5]
+  GPIO_Init(GPIOA, &gpio);
+  GPIO_PinAFConfig(GPIOA, GPIO_PinSource3, GPIO_AF_TIM2);     //configure alternate function to us TIM2
+
+   //--------input---------//
+
+  gpio.GPIO_Pin = GPIO_Pin_0; 
+ 8000846:	9400      	str	r4, [sp, #0]
+  gpio.GPIO_Mode = GPIO_Mode_IN;
+  gpio.GPIO_Speed = GPIO_Speed_40MHz;
+  gpio.GPIO_PuPd = GPIO_PuPd_DOWN;
+ 8000848:	71da      	strb	r2, [r3, #7]
+  GPIO_Init(GPIOA, &gpio);
+ 800084a:	f7ff fcd1 	bl	80001f0 <GPIO_Init>
+
+  //--------------------------GPIO init ----------------------------//
+}
+ 800084e:	bdf7      	pop	{r0, r1, r2, r4, r5, r6, r7, pc}
+ 8000850:	40020000 	.word	0x40020000
+
+08000854 <main>:
+
+}
+
+
+int main(void)
+{
+ 8000854:	b5f0      	push	{r4, r5, r6, r7, lr}
+ 8000856:	b09f      	sub	sp, #124	; 0x7c
+
+  gpioInit();
+ 8000858:	f7ff ffc8 	bl	80007ec <gpioInit>
+  unsigned int threeplaystate = 0;
+  
+  unsigned int threeperiod = 500;
+  unsigned int threeperiodcount = 0;
+
+  unsigned int threelengthperiod = 10000; 
+ 800085c:	4bde      	ldr	r3, [pc, #888]	; (8000bd8 <main+0x384>)
+  unsigned int threelengthperiodcount = 0;
+
+  unsigned int threeplayperiod = 40000;
+ 800085e:	4adf      	ldr	r2, [pc, #892]	; (8000bdc <main+0x388>)
+  unsigned int threeplaystate = 0;
+  
+  unsigned int threeperiod = 500;
+  unsigned int threeperiodcount = 0;
+
+  unsigned int threelengthperiod = 10000; 
+ 8000860:	9307      	str	r3, [sp, #28]
+  
+  unsigned int threestate = 1;
+  unsigned int threelengthstate = 0;
+  unsigned int threeplaystate = 0;
+  
+  unsigned int threeperiod = 500;
+ 8000862:	23fa      	movs	r3, #250	; 0xfa
+  unsigned int threeperiodcount = 0;
+
+  unsigned int threelengthperiod = 10000; 
+  unsigned int threelengthperiodcount = 0;
+
+  unsigned int threeplayperiod = 40000;
+ 8000864:	9208      	str	r2, [sp, #32]
+  
+  unsigned int threestate = 1;
+  unsigned int threelengthstate = 0;
+  unsigned int threeplaystate = 0;
+  
+  unsigned int threeperiod = 500;
+ 8000866:	005b      	lsls	r3, r3, #1
+
+  unsigned int threeplayperiod = 40000;
+  unsigned int threeplayperiodcount = 0;
+
+  unsigned int threeplayperiodcountperiod = 5;
+  unsigned int threeplayperiodcountperiodcount = 0;     
+ 8000868:	2100      	movs	r1, #0
+  
+  unsigned int threestate = 1;
+  unsigned int threelengthstate = 0;
+  unsigned int threeplaystate = 0;
+  
+  unsigned int threeperiod = 500;
+ 800086a:	9306      	str	r3, [sp, #24]
+  unsigned int twoperiodcount = 0;
+
+  unsigned int twolengthperiod = 10000; 
+  unsigned int twolengthperiodcount = 0;
+
+  unsigned int twoplayperiod = 40000;
+ 800086c:	9b08      	ldr	r3, [sp, #32]
+  unsigned int twoplayperiodcount = 0;
+
+  unsigned int twoplayperiodcountperiod = 5;
+  unsigned int twoplayperiodcountperiodcount = 0;   
+ 800086e:	2200      	movs	r2, #0
+
+  unsigned int threeplayperiod = 40000;
+  unsigned int threeplayperiodcount = 0;
+
+  unsigned int threeplayperiodcountperiod = 5;
+  unsigned int threeplayperiodcountperiodcount = 0;     
+ 8000870:	9101      	str	r1, [sp, #4]
+
+  unsigned int threelengthperiod = 10000; 
+  unsigned int threelengthperiodcount = 0;
+
+  unsigned int threeplayperiod = 40000;
+  unsigned int threeplayperiodcount = 0;
+ 8000872:	911d      	str	r1, [sp, #116]	; 0x74
+  
+  unsigned int threeperiod = 500;
+  unsigned int threeperiodcount = 0;
+
+  unsigned int threelengthperiod = 10000; 
+  unsigned int threelengthperiodcount = 0;
+ 8000874:	911c      	str	r1, [sp, #112]	; 0x70
+  unsigned int threestate = 1;
+  unsigned int threelengthstate = 0;
+  unsigned int threeplaystate = 0;
+  
+  unsigned int threeperiod = 500;
+  unsigned int threeperiodcount = 0;
+ 8000876:	911b      	str	r1, [sp, #108]	; 0x6c
+  unsigned int twoplayperiodcountperiod = 5;
+  unsigned int twoplayperiodcountperiodcount = 0;   
+  
+  unsigned int threestate = 1;
+  unsigned int threelengthstate = 0;
+  unsigned int threeplaystate = 0;
+ 8000878:	911a      	str	r1, [sp, #104]	; 0x68
+
+  unsigned int twoplayperiodcountperiod = 5;
+  unsigned int twoplayperiodcountperiodcount = 0;   
+  
+  unsigned int threestate = 1;
+  unsigned int threelengthstate = 0;
+ 800087a:	9119      	str	r1, [sp, #100]	; 0x64
+  unsigned int twoplayperiodcount = 0;
+
+  unsigned int twoplayperiodcountperiod = 5;
+  unsigned int twoplayperiodcountperiodcount = 0;   
+  
+  unsigned int threestate = 1;
+ 800087c:	2101      	movs	r1, #1
+ 800087e:	9105      	str	r1, [sp, #20]
+
+  unsigned int twoplayperiod = 40000;
+  unsigned int twoplayperiodcount = 0;
+
+  unsigned int twoplayperiodcountperiod = 5;
+  unsigned int twoplayperiodcountperiodcount = 0;   
+ 8000880:	9218      	str	r2, [sp, #96]	; 0x60
+  unsigned int twoplaystate = 0;
+  
+  unsigned int twoperiod = 500;
+  unsigned int twoperiodcount = 0;
+
+  unsigned int twolengthperiod = 10000; 
+ 8000882:	9907      	ldr	r1, [sp, #28]
+  unsigned int twolengthperiodcount = 0;
+
+  unsigned int twoplayperiod = 40000;
+  unsigned int twoplayperiodcount = 0;
+ 8000884:	9204      	str	r2, [sp, #16]
+  unsigned int twoperiodcount = 0;
+
+  unsigned int twolengthperiod = 10000; 
+  unsigned int twolengthperiodcount = 0;
+
+  unsigned int twoplayperiod = 40000;
+ 8000886:	9303      	str	r3, [sp, #12]
+  
+  unsigned int twoperiod = 500;
+  unsigned int twoperiodcount = 0;
+
+  unsigned int twolengthperiod = 10000; 
+  unsigned int twolengthperiodcount = 0;
+ 8000888:	9217      	str	r2, [sp, #92]	; 0x5c
+  unsigned int oneplayperiodcountperiodcount = 0; 
+  
+  
+  unsigned int twostate = 1;
+  unsigned int twolengthstate = 0;
+  unsigned int twoplaystate = 0;
+ 800088a:	2300      	movs	r3, #0
+  
+  unsigned int twoperiod = 500;
+  unsigned int twoperiodcount = 0;
+ 800088c:	9216      	str	r2, [sp, #88]	; 0x58
+  
+  unsigned int twostate = 1;
+  unsigned int twolengthstate = 0;
+  unsigned int twoplaystate = 0;
+  
+  unsigned int twoperiod = 500;
+ 800088e:	9a06      	ldr	r2, [sp, #24]
+  unsigned int oneplayperiodcountperiodcount = 0; 
+  
+  
+  unsigned int twostate = 1;
+  unsigned int twolengthstate = 0;
+  unsigned int twoplaystate = 0;
+ 8000890:	930a      	str	r3, [sp, #40]	; 0x28
+  unsigned int oneplayperiodcountperiod = 5;
+  unsigned int oneplayperiodcountperiodcount = 0; 
+  
+  
+  unsigned int twostate = 1;
+  unsigned int twolengthstate = 0;
+ 8000892:	9315      	str	r3, [sp, #84]	; 0x54
+
+  unsigned int oneplayperiod = 60000;
+  unsigned int oneplayperiodcount = 0;
+
+  unsigned int oneplayperiodcountperiod = 5;
+  unsigned int oneplayperiodcountperiodcount = 0; 
+ 8000894:	9314      	str	r3, [sp, #80]	; 0x50
+
+  unsigned int onelengthperiod = 50000; 
+  unsigned int onelengthperiodcount = 0;
+
+  unsigned int oneplayperiod = 60000;
+  unsigned int oneplayperiodcount = 0;
+ 8000896:	9313      	str	r3, [sp, #76]	; 0x4c
+  
+  unsigned int oneperiod = 1000;
+  unsigned int oneperiodcount = 0;
+
+  unsigned int onelengthperiod = 50000; 
+  unsigned int onelengthperiodcount = 0;
+ 8000898:	9312      	str	r3, [sp, #72]	; 0x48
+  unsigned int onestate = 1;
+  unsigned int onelengthstate = 0;
+  unsigned int oneplaystate = 0;
+  
+  unsigned int oneperiod = 1000;
+  unsigned int oneperiodcount = 0;
+ 800089a:	9311      	str	r3, [sp, #68]	; 0x44
+
+  unsigned int onestate = 1;
+  unsigned int onelengthstate = 0;
+  unsigned int oneplaystate = 0;
+  
+  unsigned int oneperiod = 1000;
+ 800089c:	23fa      	movs	r3, #250	; 0xfa
+  unsigned int twoplaystate = 0;
+  
+  unsigned int twoperiod = 500;
+  unsigned int twoperiodcount = 0;
+
+  unsigned int twolengthperiod = 10000; 
+ 800089e:	910c      	str	r1, [sp, #48]	; 0x30
+  
+  unsigned int twostate = 1;
+  unsigned int twolengthstate = 0;
+  unsigned int twoplaystate = 0;
+  
+  unsigned int twoperiod = 500;
+ 80008a0:	920b      	str	r2, [sp, #44]	; 0x2c
+
+  unsigned int oneplayperiodcountperiod = 5;
+  unsigned int oneplayperiodcountperiodcount = 0; 
+  
+  
+  unsigned int twostate = 1;
+ 80008a2:	2101      	movs	r1, #1
+  //variableto hold button increemnt and change settings
+  unsigned long buttonCounter = 0;
+
+  unsigned int onestate = 1;
+  unsigned int onelengthstate = 0;
+  unsigned int oneplaystate = 0;
+ 80008a4:	2200      	movs	r2, #0
+  
+  unsigned int oneperiod = 1000;
+ 80008a6:	009b      	lsls	r3, r3, #2
+  unsigned int oneperiodcount = 0;
+
+  unsigned int onelengthperiod = 50000; 
+  unsigned int onelengthperiodcount = 0;
+
+  unsigned int oneplayperiod = 60000;
+ 80008a8:	4ccd      	ldr	r4, [pc, #820]	; (8000be0 <main+0x38c>)
+  unsigned int oneplaystate = 0;
+  
+  unsigned int oneperiod = 1000;
+  unsigned int oneperiodcount = 0;
+
+  unsigned int onelengthperiod = 50000; 
+ 80008aa:	4dce      	ldr	r5, [pc, #824]	; (8000be4 <main+0x390>)
+
+  unsigned int oneplayperiodcountperiod = 5;
+  unsigned int oneplayperiodcountperiodcount = 0; 
+  
+  
+  unsigned int twostate = 1;
+ 80008ac:	910e      	str	r1, [sp, #56]	; 0x38
+
+  unsigned int onestate = 1;
+  unsigned int onelengthstate = 0;
+  unsigned int oneplaystate = 0;
+  
+  unsigned int oneperiod = 1000;
+ 80008ae:	9309      	str	r3, [sp, #36]	; 0x24
+  //variableto hold button increemnt and change settings
+  unsigned long buttonCounter = 0;
+
+  unsigned int onestate = 1;
+  unsigned int onelengthstate = 0;
+  unsigned int oneplaystate = 0;
+ 80008b0:	9210      	str	r2, [sp, #64]	; 0x40
+
+  //variableto hold button increemnt and change settings
+  unsigned long buttonCounter = 0;
+
+  unsigned int onestate = 1;
+  unsigned int onelengthstate = 0;
+ 80008b2:	920f      	str	r2, [sp, #60]	; 0x3c
+  //-------------------------- noise variables -------------------------//
+
+  //variableto hold button increemnt and change settings
+  unsigned long buttonCounter = 0;
+
+  unsigned int onestate = 1;
+ 80008b4:	910d      	str	r1, [sp, #52]	; 0x34
+  // By altering it’s value user can switch between Anlternate Function (which is MCO) and General Output which will just set pin low. Here’s the mapping, done as a global variable:
+  // GPIOA->MODER ^= (1<<17); // use this to toggle the MCO pin - it is uses the MODE register, look it up in the manual. setting 17 to 1 makes PA8 =MCO and to 0 mackes PA_8 = input pin turned low (default reset state)
+  //-------------------------- noise variables -------------------------//
+
+  //variableto hold button increemnt and change settings
+  unsigned long buttonCounter = 0;
+ 80008b6:	9202      	str	r2, [sp, #8]
+	{
+		
+
+  //----------------------- Noise procedure -------------------------//
+
+  if (oneplayperiodcount >= oneplayperiod)
+ 80008b8:	9b13      	ldr	r3, [sp, #76]	; 0x4c
+ 80008ba:	42a3      	cmp	r3, r4
+ 80008bc:	d305      	bcc.n	80008ca <main+0x76>
+    {
+      oneplaystate = 1 - oneplaystate;
+ 80008be:	9910      	ldr	r1, [sp, #64]	; 0x40
+ 80008c0:	2301      	movs	r3, #1
+ 80008c2:	1a59      	subs	r1, r3, r1
+      oneplayperiodcount = 0;
+ 80008c4:	2200      	movs	r2, #0
+
+  //----------------------- Noise procedure -------------------------//
+
+  if (oneplayperiodcount >= oneplayperiod)
+    {
+      oneplaystate = 1 - oneplaystate;
+ 80008c6:	9110      	str	r1, [sp, #64]	; 0x40
+      oneplayperiodcount = 0;
+ 80008c8:	9213      	str	r2, [sp, #76]	; 0x4c
+    }
+    if (oneplayperiodcountperiodcount >= oneplayperiodcountperiod)
+ 80008ca:	9b14      	ldr	r3, [sp, #80]	; 0x50
+ 80008cc:	2b04      	cmp	r3, #4
+ 80008ce:	d904      	bls.n	80008da <main+0x86>
+    {
+      oneplayperiodcount++;
+ 80008d0:	9913      	ldr	r1, [sp, #76]	; 0x4c
+      oneplayperiodcountperiodcount = 0;
+ 80008d2:	2200      	movs	r2, #0
+      oneplaystate = 1 - oneplaystate;
+      oneplayperiodcount = 0;
+    }
+    if (oneplayperiodcountperiodcount >= oneplayperiodcountperiod)
+    {
+      oneplayperiodcount++;
+ 80008d4:	3101      	adds	r1, #1
+ 80008d6:	9113      	str	r1, [sp, #76]	; 0x4c
+      oneplayperiodcountperiodcount = 0;
+ 80008d8:	9214      	str	r2, [sp, #80]	; 0x50
+    }
+    oneplayperiodcountperiodcount++;
+ 80008da:	9b14      	ldr	r3, [sp, #80]	; 0x50
+    
+    if (oneplaystate)
+ 80008dc:	9910      	ldr	r1, [sp, #64]	; 0x40
+    if (oneplayperiodcountperiodcount >= oneplayperiodcountperiod)
+    {
+      oneplayperiodcount++;
+      oneplayperiodcountperiodcount = 0;
+    }
+    oneplayperiodcountperiodcount++;
+ 80008de:	3301      	adds	r3, #1
+ 80008e0:	9314      	str	r3, [sp, #80]	; 0x50
+    
+    if (oneplaystate)
+ 80008e2:	2900      	cmp	r1, #0
+ 80008e4:	d01c      	beq.n	8000920 <main+0xcc>
+    {
+      if (onelengthperiodcount >= onelengthperiod)
+ 80008e6:	9a12      	ldr	r2, [sp, #72]	; 0x48
+ 80008e8:	42aa      	cmp	r2, r5
+ 80008ea:	d305      	bcc.n	80008f8 <main+0xa4>
+      {
+        onelengthstate = 1 - onelengthstate;
+ 80008ec:	990f      	ldr	r1, [sp, #60]	; 0x3c
+ 80008ee:	2301      	movs	r3, #1
+ 80008f0:	1a59      	subs	r1, r3, r1
+        onelengthperiodcount = 0;
+ 80008f2:	2200      	movs	r2, #0
+    
+    if (oneplaystate)
+    {
+      if (onelengthperiodcount >= onelengthperiod)
+      {
+        onelengthstate = 1 - onelengthstate;
+ 80008f4:	910f      	str	r1, [sp, #60]	; 0x3c
+        onelengthperiodcount = 0;
+ 80008f6:	9212      	str	r2, [sp, #72]	; 0x48
+      }
+      onelengthperiodcount++;
+ 80008f8:	9b12      	ldr	r3, [sp, #72]	; 0x48
+      
+      if (onelengthstate > 0)
+ 80008fa:	990f      	ldr	r1, [sp, #60]	; 0x3c
+      if (onelengthperiodcount >= onelengthperiod)
+      {
+        onelengthstate = 1 - onelengthstate;
+        onelengthperiodcount = 0;
+      }
+      onelengthperiodcount++;
+ 80008fc:	3301      	adds	r3, #1
+ 80008fe:	9312      	str	r3, [sp, #72]	; 0x48
+      
+      if (onelengthstate > 0)
+ 8000900:	2900      	cmp	r1, #0
+ 8000902:	d010      	beq.n	8000926 <main+0xd2>
+      { 
+        if(oneperiodcount >= oneperiod)
+ 8000904:	9a11      	ldr	r2, [sp, #68]	; 0x44
+ 8000906:	9b09      	ldr	r3, [sp, #36]	; 0x24
+ 8000908:	429a      	cmp	r2, r3
+ 800090a:	d305      	bcc.n	8000918 <main+0xc4>
+        {
+          onestate = 1 - onestate;
+ 800090c:	990d      	ldr	r1, [sp, #52]	; 0x34
+ 800090e:	2301      	movs	r3, #1
+ 8000910:	1a59      	subs	r1, r3, r1
+          
+          oneperiodcount = 0;     
+ 8000912:	2200      	movs	r2, #0
+      
+      if (onelengthstate > 0)
+      { 
+        if(oneperiodcount >= oneperiod)
+        {
+          onestate = 1 - onestate;
+ 8000914:	910d      	str	r1, [sp, #52]	; 0x34
+          
+          oneperiodcount = 0;     
+ 8000916:	9211      	str	r2, [sp, #68]	; 0x44
+        }
+        oneperiodcount++;
+ 8000918:	9b11      	ldr	r3, [sp, #68]	; 0x44
+ 800091a:	3301      	adds	r3, #1
+ 800091c:	9311      	str	r3, [sp, #68]	; 0x44
+ 800091e:	e004      	b.n	800092a <main+0xd6>
+        onestate = 0;
+      }
+    }
+    else 
+    {
+      onestate = 0;
+ 8000920:	9910      	ldr	r1, [sp, #64]	; 0x40
+ 8000922:	910d      	str	r1, [sp, #52]	; 0x34
+ 8000924:	e001      	b.n	800092a <main+0xd6>
+        }
+        oneperiodcount++;
+      }
+      else
+      {
+        onestate = 0;
+ 8000926:	9a0f      	ldr	r2, [sp, #60]	; 0x3c
+ 8000928:	920d      	str	r2, [sp, #52]	; 0x34
+    {
+      onestate = 0;
+    }
+    
+    
+    if (twoplayperiodcount >= twoplayperiod)
+ 800092a:	9b04      	ldr	r3, [sp, #16]
+ 800092c:	9903      	ldr	r1, [sp, #12]
+ 800092e:	428b      	cmp	r3, r1
+ 8000930:	d305      	bcc.n	800093e <main+0xea>
+    {
+      twoplaystate = 1 - twoplaystate;
+ 8000932:	9a0a      	ldr	r2, [sp, #40]	; 0x28
+ 8000934:	2301      	movs	r3, #1
+ 8000936:	1a9a      	subs	r2, r3, r2
+      twoplayperiodcount = 0;
+ 8000938:	2300      	movs	r3, #0
+    }
+    
+    
+    if (twoplayperiodcount >= twoplayperiod)
+    {
+      twoplaystate = 1 - twoplaystate;
+ 800093a:	920a      	str	r2, [sp, #40]	; 0x28
+      twoplayperiodcount = 0;
+ 800093c:	9304      	str	r3, [sp, #16]
+    }
+    if (twoplayperiodcountperiodcount >= twoplayperiodcountperiod)
+ 800093e:	9918      	ldr	r1, [sp, #96]	; 0x60
+ 8000940:	2904      	cmp	r1, #4
+ 8000942:	d904      	bls.n	800094e <main+0xfa>
+    {
+      twoplayperiodcount++;
+ 8000944:	9a04      	ldr	r2, [sp, #16]
+      twoplayperiodcountperiodcount = 0;
+ 8000946:	2300      	movs	r3, #0
+      twoplaystate = 1 - twoplaystate;
+      twoplayperiodcount = 0;
+    }
+    if (twoplayperiodcountperiodcount >= twoplayperiodcountperiod)
+    {
+      twoplayperiodcount++;
+ 8000948:	3201      	adds	r2, #1
+ 800094a:	9204      	str	r2, [sp, #16]
+      twoplayperiodcountperiodcount = 0;
+ 800094c:	9318      	str	r3, [sp, #96]	; 0x60
+    }
+    twoplayperiodcountperiodcount++;
+ 800094e:	9b18      	ldr	r3, [sp, #96]	; 0x60
+    
+    if (twoplaystate)
+ 8000950:	990a      	ldr	r1, [sp, #40]	; 0x28
+    if (twoplayperiodcountperiodcount >= twoplayperiodcountperiod)
+    {
+      twoplayperiodcount++;
+      twoplayperiodcountperiodcount = 0;
+    }
+    twoplayperiodcountperiodcount++;
+ 8000952:	3301      	adds	r3, #1
+    
+    if (twoplaystate)
+ 8000954:	2900      	cmp	r1, #0
+ 8000956:	d01d      	beq.n	8000994 <main+0x140>
+    {
+      if (twolengthperiodcount >= twolengthperiod)
+ 8000958:	9a17      	ldr	r2, [sp, #92]	; 0x5c
+ 800095a:	990c      	ldr	r1, [sp, #48]	; 0x30
+ 800095c:	428a      	cmp	r2, r1
+ 800095e:	d305      	bcc.n	800096c <main+0x118>
+      {
+        twolengthstate = 1 - twolengthstate;
+ 8000960:	9915      	ldr	r1, [sp, #84]	; 0x54
+ 8000962:	2201      	movs	r2, #1
+ 8000964:	1a51      	subs	r1, r2, r1
+        twolengthperiodcount = 0;
+ 8000966:	2200      	movs	r2, #0
+    
+    if (twoplaystate)
+    {
+      if (twolengthperiodcount >= twolengthperiod)
+      {
+        twolengthstate = 1 - twolengthstate;
+ 8000968:	9115      	str	r1, [sp, #84]	; 0x54
+        twolengthperiodcount = 0;
+ 800096a:	9217      	str	r2, [sp, #92]	; 0x5c
+      }
+      twolengthperiodcount++;
+ 800096c:	9917      	ldr	r1, [sp, #92]	; 0x5c
+      
+      if (twolengthstate > 0)
+ 800096e:	9a15      	ldr	r2, [sp, #84]	; 0x54
+      if (twolengthperiodcount >= twolengthperiod)
+      {
+        twolengthstate = 1 - twolengthstate;
+        twolengthperiodcount = 0;
+      }
+      twolengthperiodcount++;
+ 8000970:	3101      	adds	r1, #1
+ 8000972:	9117      	str	r1, [sp, #92]	; 0x5c
+      
+      if (twolengthstate > 0)
+ 8000974:	2a00      	cmp	r2, #0
+ 8000976:	d010      	beq.n	800099a <main+0x146>
+      { 
+        if(twoperiodcount >= twoperiod)
+ 8000978:	9916      	ldr	r1, [sp, #88]	; 0x58
+ 800097a:	9a0b      	ldr	r2, [sp, #44]	; 0x2c
+ 800097c:	4291      	cmp	r1, r2
+ 800097e:	d305      	bcc.n	800098c <main+0x138>
+        {
+          twostate = 1 - twostate;
+ 8000980:	990e      	ldr	r1, [sp, #56]	; 0x38
+ 8000982:	2201      	movs	r2, #1
+ 8000984:	1a51      	subs	r1, r2, r1
+          
+          twoperiodcount = 0;     
+ 8000986:	2200      	movs	r2, #0
+      
+      if (twolengthstate > 0)
+      { 
+        if(twoperiodcount >= twoperiod)
+        {
+          twostate = 1 - twostate;
+ 8000988:	910e      	str	r1, [sp, #56]	; 0x38
+          
+          twoperiodcount = 0;     
+ 800098a:	9216      	str	r2, [sp, #88]	; 0x58
+        }
+        twoperiodcount++;
+ 800098c:	9916      	ldr	r1, [sp, #88]	; 0x58
+ 800098e:	3101      	adds	r1, #1
+ 8000990:	9116      	str	r1, [sp, #88]	; 0x58
+ 8000992:	e004      	b.n	800099e <main+0x14a>
+        twostate = 0;
+      }
+    }
+    else 
+    {
+      twostate = 0;
+ 8000994:	9a0a      	ldr	r2, [sp, #40]	; 0x28
+ 8000996:	920e      	str	r2, [sp, #56]	; 0x38
+ 8000998:	e001      	b.n	800099e <main+0x14a>
+        }
+        twoperiodcount++;
+      }
+      else
+      {
+        twostate = 0;
+ 800099a:	9915      	ldr	r1, [sp, #84]	; 0x54
+ 800099c:	910e      	str	r1, [sp, #56]	; 0x38
+    else 
+    {
+      twostate = 0;
+    }
+    
+    if (twoplayperiodcount >= twoplayperiod)
+ 800099e:	9a04      	ldr	r2, [sp, #16]
+ 80009a0:	9903      	ldr	r1, [sp, #12]
+ 80009a2:	428a      	cmp	r2, r1
+ 80009a4:	d305      	bcc.n	80009b2 <main+0x15e>
+    {
+      twoplaystate = 1 - twoplaystate;
+ 80009a6:	990a      	ldr	r1, [sp, #40]	; 0x28
+ 80009a8:	2201      	movs	r2, #1
+ 80009aa:	1a51      	subs	r1, r2, r1
+      twoplayperiodcount = 0;
+ 80009ac:	2200      	movs	r2, #0
+      twostate = 0;
+    }
+    
+    if (twoplayperiodcount >= twoplayperiod)
+    {
+      twoplaystate = 1 - twoplaystate;
+ 80009ae:	910a      	str	r1, [sp, #40]	; 0x28
+      twoplayperiodcount = 0;
+ 80009b0:	9204      	str	r2, [sp, #16]
+    }
+    if (twoplayperiodcountperiodcount >= twoplayperiodcountperiod)
+ 80009b2:	2b04      	cmp	r3, #4
+ 80009b4:	d903      	bls.n	80009be <main+0x16a>
+    {
+      twoplayperiodcount++;
+ 80009b6:	9b04      	ldr	r3, [sp, #16]
+ 80009b8:	3301      	adds	r3, #1
+ 80009ba:	9304      	str	r3, [sp, #16]
+      twoplayperiodcountperiodcount = 0;
+ 80009bc:	2300      	movs	r3, #0
+    twoplayperiodcountperiodcount++;
+    
+    
+    
+    
+    if (threeplaystate)
+ 80009be:	991a      	ldr	r1, [sp, #104]	; 0x68
+    if (twoplayperiodcountperiodcount >= twoplayperiodcountperiod)
+    {
+      twoplayperiodcount++;
+      twoplayperiodcountperiodcount = 0;
+    }
+    twoplayperiodcountperiodcount++;
+ 80009c0:	3301      	adds	r3, #1
+ 80009c2:	9318      	str	r3, [sp, #96]	; 0x60
+    
+    
+    
+    
+    if (threeplaystate)
+ 80009c4:	2900      	cmp	r1, #0
+ 80009c6:	d01d      	beq.n	8000a04 <main+0x1b0>
+    {
+      if (threelengthperiodcount >= threelengthperiod)
+ 80009c8:	9a1c      	ldr	r2, [sp, #112]	; 0x70
+ 80009ca:	9b07      	ldr	r3, [sp, #28]
+ 80009cc:	429a      	cmp	r2, r3
+ 80009ce:	d305      	bcc.n	80009dc <main+0x188>
+      {
+        threelengthstate = 1 - threelengthstate;
+ 80009d0:	9919      	ldr	r1, [sp, #100]	; 0x64
+ 80009d2:	2301      	movs	r3, #1
+ 80009d4:	1a59      	subs	r1, r3, r1
+        threelengthperiodcount = 0;
+ 80009d6:	2200      	movs	r2, #0
+    
+    if (threeplaystate)
+    {
+      if (threelengthperiodcount >= threelengthperiod)
+      {
+        threelengthstate = 1 - threelengthstate;
+ 80009d8:	9119      	str	r1, [sp, #100]	; 0x64
+        threelengthperiodcount = 0;
+ 80009da:	921c      	str	r2, [sp, #112]	; 0x70
+      }
+      threelengthperiodcount++;
+ 80009dc:	9b1c      	ldr	r3, [sp, #112]	; 0x70
+      
+      if (threelengthstate > 0)
+ 80009de:	9919      	ldr	r1, [sp, #100]	; 0x64
+      if (threelengthperiodcount >= threelengthperiod)
+      {
+        threelengthstate = 1 - threelengthstate;
+        threelengthperiodcount = 0;
+      }
+      threelengthperiodcount++;
+ 80009e0:	3301      	adds	r3, #1
+ 80009e2:	931c      	str	r3, [sp, #112]	; 0x70
+      
+      if (threelengthstate > 0)
+ 80009e4:	2900      	cmp	r1, #0
+ 80009e6:	d010      	beq.n	8000a0a <main+0x1b6>
+      { 
+        if(threeperiodcount >= threeperiod)
+ 80009e8:	9a1b      	ldr	r2, [sp, #108]	; 0x6c
+ 80009ea:	9b06      	ldr	r3, [sp, #24]
+ 80009ec:	429a      	cmp	r2, r3
+ 80009ee:	d305      	bcc.n	80009fc <main+0x1a8>
+        {
+          threestate = 1 - threestate;
+ 80009f0:	9905      	ldr	r1, [sp, #20]
+ 80009f2:	2301      	movs	r3, #1
+ 80009f4:	1a59      	subs	r1, r3, r1
+          
+          threeperiodcount = 0;     
+ 80009f6:	2200      	movs	r2, #0
+      
+      if (threelengthstate > 0)
+      { 
+        if(threeperiodcount >= threeperiod)
+        {
+          threestate = 1 - threestate;
+ 80009f8:	9105      	str	r1, [sp, #20]
+          
+          threeperiodcount = 0;     
+ 80009fa:	921b      	str	r2, [sp, #108]	; 0x6c
+        }
+        threeperiodcount++;
+ 80009fc:	9b1b      	ldr	r3, [sp, #108]	; 0x6c
+ 80009fe:	3301      	adds	r3, #1
+ 8000a00:	931b      	str	r3, [sp, #108]	; 0x6c
+ 8000a02:	e004      	b.n	8000a0e <main+0x1ba>
+        threestate = 0;
+      }
+    }
+    else 
+    {
+      threestate = 0;
+ 8000a04:	991a      	ldr	r1, [sp, #104]	; 0x68
+ 8000a06:	9105      	str	r1, [sp, #20]
+ 8000a08:	e001      	b.n	8000a0e <main+0x1ba>
+        }
+        threeperiodcount++;
+      }
+      else
+      {
+        threestate = 0;
+ 8000a0a:	9a19      	ldr	r2, [sp, #100]	; 0x64
+ 8000a0c:	9205      	str	r2, [sp, #20]
+    else 
+    {
+      threestate = 0;
+    }   
+    
+    if (threeplayperiodcount >= threeplayperiod)
+ 8000a0e:	9b1d      	ldr	r3, [sp, #116]	; 0x74
+ 8000a10:	9908      	ldr	r1, [sp, #32]
+ 8000a12:	428b      	cmp	r3, r1
+ 8000a14:	d305      	bcc.n	8000a22 <main+0x1ce>
+    {
+      threeplaystate = 1 - threeplaystate;
+ 8000a16:	9a1a      	ldr	r2, [sp, #104]	; 0x68
+ 8000a18:	2301      	movs	r3, #1
+ 8000a1a:	1a9a      	subs	r2, r3, r2
+      threeplayperiodcount = 0;
+ 8000a1c:	2300      	movs	r3, #0
+      threestate = 0;
+    }   
+    
+    if (threeplayperiodcount >= threeplayperiod)
+    {
+      threeplaystate = 1 - threeplaystate;
+ 8000a1e:	921a      	str	r2, [sp, #104]	; 0x68
+      threeplayperiodcount = 0;
+ 8000a20:	931d      	str	r3, [sp, #116]	; 0x74
+    }
+    if (threeplayperiodcountperiodcount >= threeplayperiodcountperiod)
+ 8000a22:	9901      	ldr	r1, [sp, #4]
+ 8000a24:	2904      	cmp	r1, #4
+ 8000a26:	d904      	bls.n	8000a32 <main+0x1de>
+    {
+      threeplayperiodcount++;
+ 8000a28:	9a1d      	ldr	r2, [sp, #116]	; 0x74
+      threeplayperiodcountperiodcount = 0;
+ 8000a2a:	2300      	movs	r3, #0
+      threeplaystate = 1 - threeplaystate;
+      threeplayperiodcount = 0;
+    }
+    if (threeplayperiodcountperiodcount >= threeplayperiodcountperiod)
+    {
+      threeplayperiodcount++;
+ 8000a2c:	3201      	adds	r2, #1
+ 8000a2e:	921d      	str	r2, [sp, #116]	; 0x74
+      threeplayperiodcountperiodcount = 0;
+ 8000a30:	9301      	str	r3, [sp, #4]
+    }
+    threeplayperiodcountperiodcount++;    
+ 8000a32:	9901      	ldr	r1, [sp, #4]
+    
+    
+    // ^ = XOR:bitwise XOR each bit will result in a 1 if the input bits are different, or 0 if they are the same.
+    // if any of the states are different this will evaluate as true
+    if (twostate ^ onestate ^ threestate) {
+ 8000a34:	9b0e      	ldr	r3, [sp, #56]	; 0x38
+    if (threeplayperiodcountperiodcount >= threeplayperiodcountperiod)
+    {
+      threeplayperiodcount++;
+      threeplayperiodcountperiodcount = 0;
+    }
+    threeplayperiodcountperiodcount++;    
+ 8000a36:	3101      	adds	r1, #1
+ 8000a38:	9101      	str	r1, [sp, #4]
+    
+    
+    // ^ = XOR:bitwise XOR each bit will result in a 1 if the input bits are different, or 0 if they are the same.
+    // if any of the states are different this will evaluate as true
+    if (twostate ^ onestate ^ threestate) {
+ 8000a3a:	9a0d      	ldr	r2, [sp, #52]	; 0x34
+ 8000a3c:	9905      	ldr	r1, [sp, #20]
+ 8000a3e:	4053      	eors	r3, r2
+    
+      GPIO_WriteBit(GPIOA, GPIO_Pin_2, Bit_SET);
+ 8000a40:	4869      	ldr	r0, [pc, #420]	; (8000be8 <main+0x394>)
+    threeplayperiodcountperiodcount++;    
+    
+    
+    // ^ = XOR:bitwise XOR each bit will result in a 1 if the input bits are different, or 0 if they are the same.
+    // if any of the states are different this will evaluate as true
+    if (twostate ^ onestate ^ threestate) {
+ 8000a42:	428b      	cmp	r3, r1
+ 8000a44:	d007      	beq.n	8000a56 <main+0x202>
+    
+      GPIO_WriteBit(GPIOA, GPIO_Pin_2, Bit_SET);
+ 8000a46:	2104      	movs	r1, #4
+ 8000a48:	2201      	movs	r2, #1
+ 8000a4a:	f7ff fc5d 	bl	8000308 <GPIO_WriteBit>
+      GPIO_WriteBit(GPIOA, GPIO_Pin_3, Bit_SET );         // PORTB = PORTB | b00011000 : turn on PB3 and PB4, 24 | 24 or 0 | 24
+ 8000a4e:	4866      	ldr	r0, [pc, #408]	; (8000be8 <main+0x394>)
+ 8000a50:	2108      	movs	r1, #8
+ 8000a52:	2201      	movs	r2, #1
+ 8000a54:	e006      	b.n	8000a64 <main+0x210>
+      // GPIOA->MODER |= (1<<17);
+      //TIM_SetCompare4(TIM2,Random()/100); 
+    }else{
+      
+    // ~ = bitwise NOT: changes every single bit to its opposite
+      GPIO_WriteBit(GPIOA, GPIO_Pin_2, Bit_RESET);
+ 8000a56:	2104      	movs	r1, #4
+ 8000a58:	2200      	movs	r2, #0
+ 8000a5a:	f7ff fc55 	bl	8000308 <GPIO_WriteBit>
+      GPIO_WriteBit(GPIOA, GPIO_Pin_3, Bit_RESET);     // PORTB = PORTB & b11100111 : turn off PB3 and PB4, 24 & 231 or  0 & 231
+ 8000a5e:	4862      	ldr	r0, [pc, #392]	; (8000be8 <main+0x394>)
+ 8000a60:	2108      	movs	r1, #8
+ 8000a62:	2200      	movs	r2, #0
+ 8000a64:	f7ff fc50 	bl	8000308 <GPIO_WriteBit>
+
+
+    // if PINB (the portb data register used t read pins logical states)
+    // & = bitwise AND if both input bits are 1, the resulting output is 1, otherwise the output is 0
+    //if pin PB0 is low this evealutes as true because 1 is b00000001 in binary
+    if (GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0) == 0)
+ 8000a68:	485f      	ldr	r0, [pc, #380]	; (8000be8 <main+0x394>)
+ 8000a6a:	2101      	movs	r1, #1
+ 8000a6c:	f7ff fc34 	bl	80002d8 <GPIO_ReadInputDataBit>
+ 8000a70:	2800      	cmp	r0, #0
+ 8000a72:	d000      	beq.n	8000a76 <main+0x222>
+ 8000a74:	e720      	b.n	80008b8 <main+0x64>
+    { 
+      if(buttonCounter>65535){
+        buttonCounter=0;
+ 8000a76:	9a02      	ldr	r2, [sp, #8]
+    // if PINB (the portb data register used t read pins logical states)
+    // & = bitwise AND if both input bits are 1, the resulting output is 1, otherwise the output is 0
+    //if pin PB0 is low this evealutes as true because 1 is b00000001 in binary
+    if (GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0) == 0)
+    { 
+      if(buttonCounter>65535){
+ 8000a78:	4b5c      	ldr	r3, [pc, #368]	; (8000bec <main+0x398>)
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000a7a:	4c5d      	ldr	r4, [pc, #372]	; (8000bf0 <main+0x39c>)
+    // & = bitwise AND if both input bits are 1, the resulting output is 1, otherwise the output is 0
+    //if pin PB0 is low this evealutes as true because 1 is b00000001 in binary
+    if (GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0) == 0)
+    { 
+      if(buttonCounter>65535){
+        buttonCounter=0;
+ 8000a7c:	4293      	cmp	r3, r2
+ 8000a7e:	4140      	adcs	r0, r0
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000a80:	4b5c      	ldr	r3, [pc, #368]	; (8000bf4 <main+0x3a0>)
+ 8000a82:	495d      	ldr	r1, [pc, #372]	; (8000bf8 <main+0x3a4>)
+ 8000a84:	681b      	ldr	r3, [r3, #0]
+    // & = bitwise AND if both input bits are 1, the resulting output is 1, otherwise the output is 0
+    //if pin PB0 is low this evealutes as true because 1 is b00000001 in binary
+    if (GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0) == 0)
+    { 
+      if(buttonCounter>65535){
+        buttonCounter=0;
+ 8000a86:	4240      	negs	r0, r0
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000a88:	1c1d      	adds	r5, r3, #0
+ 8000a8a:	4365      	muls	r5, r4
+ 8000a8c:	186d      	adds	r5, r5, r1
+    // & = bitwise AND if both input bits are 1, the resulting output is 1, otherwise the output is 0
+    //if pin PB0 is low this evealutes as true because 1 is b00000001 in binary
+    if (GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0) == 0)
+    { 
+      if(buttonCounter>65535){
+        buttonCounter=0;
+ 8000a8e:	4002      	ands	r2, r0
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000a90:	0068      	lsls	r0, r5, #1
+ 8000a92:	0c40      	lsrs	r0, r0, #17
+    if (GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0) == 0)
+    { 
+      if(buttonCounter>65535){
+        buttonCounter=0;
+      }    
+      buttonCounter=buttonCounter+(Random()/100);
+ 8000a94:	2164      	movs	r1, #100	; 0x64
+    // & = bitwise AND if both input bits are 1, the resulting output is 1, otherwise the output is 0
+    //if pin PB0 is low this evealutes as true because 1 is b00000001 in binary
+    if (GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0) == 0)
+    { 
+      if(buttonCounter>65535){
+        buttonCounter=0;
+ 8000a96:	9202      	str	r2, [sp, #8]
+      }    
+      buttonCounter=buttonCounter+(Random()/100);
+ 8000a98:	f7ff fe58 	bl	800074c <__aeabi_uidiv>
+ 8000a9c:	9a02      	ldr	r2, [sp, #8]
+
+      if(buttonCounter%4==0){
+ 8000a9e:	2603      	movs	r6, #3
+    if (GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0) == 0)
+    { 
+      if(buttonCounter>65535){
+        buttonCounter=0;
+      }    
+      buttonCounter=buttonCounter+(Random()/100);
+ 8000aa0:	1812      	adds	r2, r2, r0
+ 8000aa2:	9202      	str	r2, [sp, #8]
+ 8000aa4:	4365      	muls	r5, r4
+
+      if(buttonCounter%4==0){
+ 8000aa6:	4232      	tst	r2, r6
+ 8000aa8:	d146      	bne.n	8000b38 <main+0x2e4>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000aaa:	4b53      	ldr	r3, [pc, #332]	; (8000bf8 <main+0x3a4>)
+      buttonCounter=buttonCounter+(Random()/100);
+
+      if(buttonCounter%4==0){
+      
+
+      threeperiod = Random()/400;
+ 8000aac:	21c8      	movs	r1, #200	; 0xc8
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000aae:	18ed      	adds	r5, r5, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000ab0:	0068      	lsls	r0, r5, #1
+      buttonCounter=buttonCounter+(Random()/100);
+
+      if(buttonCounter%4==0){
+      
+
+      threeperiod = Random()/400;
+ 8000ab2:	0049      	lsls	r1, r1, #1
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000ab4:	0c40      	lsrs	r0, r0, #17
+      buttonCounter=buttonCounter+(Random()/100);
+
+      if(buttonCounter%4==0){
+      
+
+      threeperiod = Random()/400;
+ 8000ab6:	f7ff fe49 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000aba:	4365      	muls	r5, r4
+ 8000abc:	494e      	ldr	r1, [pc, #312]	; (8000bf8 <main+0x3a4>)
+      buttonCounter=buttonCounter+(Random()/100);
+
+      if(buttonCounter%4==0){
+      
+
+      threeperiod = Random()/400;
+ 8000abe:	9006      	str	r0, [sp, #24]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000ac0:	186d      	adds	r5, r5, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000ac2:	0068      	lsls	r0, r5, #1
+
+      if(buttonCounter%4==0){
+      
+
+      threeperiod = Random()/400;
+      threelengthperiod = Random()/5; 
+ 8000ac4:	2105      	movs	r1, #5
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000ac6:	0c40      	lsrs	r0, r0, #17
+
+      if(buttonCounter%4==0){
+      
+
+      threeperiod = Random()/400;
+      threelengthperiod = Random()/5; 
+ 8000ac8:	f7ff fe40 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000acc:	4365      	muls	r5, r4
+ 8000ace:	4a4a      	ldr	r2, [pc, #296]	; (8000bf8 <main+0x3a4>)
+
+      if(buttonCounter%4==0){
+      
+
+      threeperiod = Random()/400;
+      threelengthperiod = Random()/5; 
+ 8000ad0:	9007      	str	r0, [sp, #28]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000ad2:	18ae      	adds	r6, r5, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000ad4:	0073      	lsls	r3, r6, #1
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000ad6:	4366      	muls	r6, r4
+ 8000ad8:	18b6      	adds	r6, r6, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000ada:	0070      	lsls	r0, r6, #1
+
+      threeperiod = Random()/400;
+      threelengthperiod = Random()/5; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/400;
+ 8000adc:	21c8      	movs	r1, #200	; 0xc8
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000ade:	0c5b      	lsrs	r3, r3, #17
+
+      threeperiod = Random()/400;
+      threelengthperiod = Random()/5; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/400;
+ 8000ae0:	0049      	lsls	r1, r1, #1
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000ae2:	0c40      	lsrs	r0, r0, #17
+ 8000ae4:	9308      	str	r3, [sp, #32]
+
+      threeperiod = Random()/400;
+      threelengthperiod = Random()/5; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/400;
+ 8000ae6:	f7ff fe31 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000aea:	4366      	muls	r6, r4
+ 8000aec:	4b42      	ldr	r3, [pc, #264]	; (8000bf8 <main+0x3a4>)
+
+      threeperiod = Random()/400;
+      threelengthperiod = Random()/5; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/400;
+ 8000aee:	900b      	str	r0, [sp, #44]	; 0x2c
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000af0:	18f6      	adds	r6, r6, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000af2:	0070      	lsls	r0, r6, #1
+      threeperiod = Random()/400;
+      threelengthperiod = Random()/5; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/400;
+      twolengthperiod = Random()/5; 
+ 8000af4:	2105      	movs	r1, #5
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000af6:	0c40      	lsrs	r0, r0, #17
+      threeperiod = Random()/400;
+      threelengthperiod = Random()/5; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/400;
+      twolengthperiod = Random()/5; 
+ 8000af8:	f7ff fe28 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000afc:	4366      	muls	r6, r4
+ 8000afe:	493e      	ldr	r1, [pc, #248]	; (8000bf8 <main+0x3a4>)
+      threeperiod = Random()/400;
+      threelengthperiod = Random()/5; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/400;
+      twolengthperiod = Random()/5; 
+ 8000b00:	900c      	str	r0, [sp, #48]	; 0x30
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b02:	1876      	adds	r6, r6, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000b04:	0073      	lsls	r3, r6, #1
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b06:	4366      	muls	r6, r4
+ 8000b08:	1876      	adds	r6, r6, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000b0a:	0070      	lsls	r0, r6, #1
+ 8000b0c:	0c5b      	lsrs	r3, r3, #17
+      
+      twoperiod = Random()/400;
+      twolengthperiod = Random()/5; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/200;
+ 8000b0e:	21c8      	movs	r1, #200	; 0xc8
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000b10:	0c40      	lsrs	r0, r0, #17
+ 8000b12:	9303      	str	r3, [sp, #12]
+      
+      twoperiod = Random()/400;
+      twolengthperiod = Random()/5; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/200;
+ 8000b14:	f7ff fe1a 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b18:	4366      	muls	r6, r4
+ 8000b1a:	4a37      	ldr	r2, [pc, #220]	; (8000bf8 <main+0x3a4>)
+      
+      twoperiod = Random()/400;
+      twolengthperiod = Random()/5; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/200;
+ 8000b1c:	9009      	str	r0, [sp, #36]	; 0x24
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b1e:	18b6      	adds	r6, r6, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000b20:	0070      	lsls	r0, r6, #1
+      twoperiod = Random()/400;
+      twolengthperiod = Random()/5; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/200;
+      onelengthperiod = Random()/5; 
+ 8000b22:	2105      	movs	r1, #5
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000b24:	0c40      	lsrs	r0, r0, #17
+      twoperiod = Random()/400;
+      twolengthperiod = Random()/5; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/200;
+      onelengthperiod = Random()/5; 
+ 8000b26:	f7ff fe11 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b2a:	4374      	muls	r4, r6
+ 8000b2c:	4b32      	ldr	r3, [pc, #200]	; (8000bf8 <main+0x3a4>)
+ 8000b2e:	4931      	ldr	r1, [pc, #196]	; (8000bf4 <main+0x3a0>)
+ 8000b30:	18e4      	adds	r4, r4, r3
+      twoperiod = Random()/400;
+      twolengthperiod = Random()/5; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/200;
+      onelengthperiod = Random()/5; 
+ 8000b32:	1c05      	adds	r5, r0, #0
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b34:	600c      	str	r4, [r1, #0]
+ 8000b36:	e141      	b.n	8000dbc <main+0x568>
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/200;
+      onelengthperiod = Random()/5; 
+      oneplayperiod = Random();
+    }else if (buttonCounter%2==0){
+ 8000b38:	9a02      	ldr	r2, [sp, #8]
+ 8000b3a:	07d2      	lsls	r2, r2, #31
+ 8000b3c:	d45e      	bmi.n	8000bfc <main+0x3a8>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b3e:	4b2e      	ldr	r3, [pc, #184]	; (8000bf8 <main+0x3a4>)
+      oneperiod = Random()/200;
+      onelengthperiod = Random()/5; 
+      oneplayperiod = Random();
+    }else if (buttonCounter%2==0){
+      
+      threeperiod = Random()/200;
+ 8000b40:	21c8      	movs	r1, #200	; 0xc8
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b42:	18ed      	adds	r5, r5, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000b44:	0068      	lsls	r0, r5, #1
+ 8000b46:	0c40      	lsrs	r0, r0, #17
+      oneperiod = Random()/200;
+      onelengthperiod = Random()/5; 
+      oneplayperiod = Random();
+    }else if (buttonCounter%2==0){
+      
+      threeperiod = Random()/200;
+ 8000b48:	f7ff fe00 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b4c:	4365      	muls	r5, r4
+ 8000b4e:	492a      	ldr	r1, [pc, #168]	; (8000bf8 <main+0x3a4>)
+      oneperiod = Random()/200;
+      onelengthperiod = Random()/5; 
+      oneplayperiod = Random();
+    }else if (buttonCounter%2==0){
+      
+      threeperiod = Random()/200;
+ 8000b50:	9006      	str	r0, [sp, #24]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b52:	186e      	adds	r6, r5, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000b54:	0070      	lsls	r0, r6, #1
+      onelengthperiod = Random()/5; 
+      oneplayperiod = Random();
+    }else if (buttonCounter%2==0){
+      
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+ 8000b56:	2114      	movs	r1, #20
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000b58:	0c40      	lsrs	r0, r0, #17
+      onelengthperiod = Random()/5; 
+      oneplayperiod = Random();
+    }else if (buttonCounter%2==0){
+      
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+ 8000b5a:	f7ff fdf7 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b5e:	4366      	muls	r6, r4
+ 8000b60:	4a25      	ldr	r2, [pc, #148]	; (8000bf8 <main+0x3a4>)
+      onelengthperiod = Random()/5; 
+      oneplayperiod = Random();
+    }else if (buttonCounter%2==0){
+      
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+ 8000b62:	9007      	str	r0, [sp, #28]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b64:	18b6      	adds	r6, r6, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000b66:	0070      	lsls	r0, r6, #1
+      oneplayperiod = Random();
+    }else if (buttonCounter%2==0){
+      
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+ 8000b68:	2105      	movs	r1, #5
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000b6a:	0c40      	lsrs	r0, r0, #17
+      oneplayperiod = Random();
+    }else if (buttonCounter%2==0){
+      
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+ 8000b6c:	f7ff fdee 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b70:	4366      	muls	r6, r4
+ 8000b72:	4b21      	ldr	r3, [pc, #132]	; (8000bf8 <main+0x3a4>)
+      oneplayperiod = Random();
+    }else if (buttonCounter%2==0){
+      
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+ 8000b74:	9008      	str	r0, [sp, #32]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b76:	18f6      	adds	r6, r6, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000b78:	0070      	lsls	r0, r6, #1
+      
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+      
+       twoperiod = Random()/200;
+ 8000b7a:	21c8      	movs	r1, #200	; 0xc8
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000b7c:	0c40      	lsrs	r0, r0, #17
+      
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+      
+       twoperiod = Random()/200;
+ 8000b7e:	f7ff fde5 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b82:	4366      	muls	r6, r4
+ 8000b84:	491c      	ldr	r1, [pc, #112]	; (8000bf8 <main+0x3a4>)
+      
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+      
+       twoperiod = Random()/200;
+ 8000b86:	900b      	str	r0, [sp, #44]	; 0x2c
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b88:	1876      	adds	r6, r6, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000b8a:	0070      	lsls	r0, r6, #1
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+      
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+ 8000b8c:	2114      	movs	r1, #20
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000b8e:	0c40      	lsrs	r0, r0, #17
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+      
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+ 8000b90:	f7ff fddc 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b94:	4366      	muls	r6, r4
+ 8000b96:	4a18      	ldr	r2, [pc, #96]	; (8000bf8 <main+0x3a4>)
+      threeperiod = Random()/200;
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+      
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+ 8000b98:	900c      	str	r0, [sp, #48]	; 0x30
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000b9a:	18b6      	adds	r6, r6, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000b9c:	0070      	lsls	r0, r6, #1
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+      
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+       twoplayperiod = Random()/5;
+ 8000b9e:	2105      	movs	r1, #5
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000ba0:	0c40      	lsrs	r0, r0, #17
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+      
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+       twoplayperiod = Random()/5;
+ 8000ba2:	f7ff fdd3 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000ba6:	4366      	muls	r6, r4
+ 8000ba8:	4b13      	ldr	r3, [pc, #76]	; (8000bf8 <main+0x3a4>)
+       threelengthperiod = Random()/20; 
+       threeplayperiod = Random()/5;
+      
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+       twoplayperiod = Random()/5;
+ 8000baa:	9003      	str	r0, [sp, #12]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000bac:	18f6      	adds	r6, r6, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000bae:	0070      	lsls	r0, r6, #1
+      
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+       twoplayperiod = Random()/5;
+      
+       oneperiod = Random()/200;
+ 8000bb0:	21c8      	movs	r1, #200	; 0xc8
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000bb2:	0c40      	lsrs	r0, r0, #17
+      
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+       twoplayperiod = Random()/5;
+      
+       oneperiod = Random()/200;
+ 8000bb4:	f7ff fdca 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000bb8:	4366      	muls	r6, r4
+ 8000bba:	490f      	ldr	r1, [pc, #60]	; (8000bf8 <main+0x3a4>)
+      
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+       twoplayperiod = Random()/5;
+      
+       oneperiod = Random()/200;
+ 8000bbc:	9009      	str	r0, [sp, #36]	; 0x24
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000bbe:	1876      	adds	r6, r6, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000bc0:	0070      	lsls	r0, r6, #1
+ 8000bc2:	0c40      	lsrs	r0, r0, #17
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+       twoplayperiod = Random()/5;
+      
+       oneperiod = Random()/200;
+       onelengthperiod = Random()/20; 
+ 8000bc4:	2114      	movs	r1, #20
+ 8000bc6:	f7ff fdc1 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000bca:	4374      	muls	r4, r6
+ 8000bcc:	4a0a      	ldr	r2, [pc, #40]	; (8000bf8 <main+0x3a4>)
+ 8000bce:	4b09      	ldr	r3, [pc, #36]	; (8000bf4 <main+0x3a0>)
+ 8000bd0:	18a4      	adds	r4, r4, r2
+       twoperiod = Random()/200;
+       twolengthperiod = Random()/20; 
+       twoplayperiod = Random()/5;
+      
+       oneperiod = Random()/200;
+       onelengthperiod = Random()/20; 
+ 8000bd2:	1c05      	adds	r5, r0, #0
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000bd4:	601c      	str	r4, [r3, #0]
+ 8000bd6:	e0b1      	b.n	8000d3c <main+0x4e8>
+ 8000bd8:	00002710 	.word	0x00002710
+ 8000bdc:	00009c40 	.word	0x00009c40
+ 8000be0:	0000ea60 	.word	0x0000ea60
+ 8000be4:	0000c350 	.word	0x0000c350
+ 8000be8:	40020000 	.word	0x40020000
+ 8000bec:	0000ffff 	.word	0x0000ffff
+ 8000bf0:	41c64e6d 	.word	0x41c64e6d
+ 8000bf4:	2000001c 	.word	0x2000001c
+ 8000bf8:	00003039 	.word	0x00003039
+       twoplayperiod = Random()/5;
+      
+       oneperiod = Random()/200;
+       onelengthperiod = Random()/20; 
+       oneplayperiod = Random()/5;
+    }else if(buttonCounter%6 ==0){
+ 8000bfc:	9802      	ldr	r0, [sp, #8]
+ 8000bfe:	2106      	movs	r1, #6
+ 8000c00:	f7ff fde8 	bl	80007d4 <__aeabi_uidivmod>
+ 8000c04:	2900      	cmp	r1, #0
+ 8000c06:	d14f      	bne.n	8000ca8 <main+0x454>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c08:	496e      	ldr	r1, [pc, #440]	; (8000dc4 <main+0x570>)
+ 8000c0a:	186d      	adds	r5, r5, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000c0c:	0068      	lsls	r0, r5, #1
+       oneperiod = Random()/200;
+       onelengthperiod = Random()/20; 
+       oneplayperiod = Random()/5;
+    }else if(buttonCounter%6 ==0){
+
+        threeperiod = Random()/100;
+ 8000c0e:	2164      	movs	r1, #100	; 0x64
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000c10:	0c40      	lsrs	r0, r0, #17
+       oneperiod = Random()/200;
+       onelengthperiod = Random()/20; 
+       oneplayperiod = Random()/5;
+    }else if(buttonCounter%6 ==0){
+
+        threeperiod = Random()/100;
+ 8000c12:	f7ff fd9b 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c16:	4365      	muls	r5, r4
+ 8000c18:	4a6a      	ldr	r2, [pc, #424]	; (8000dc4 <main+0x570>)
+       oneperiod = Random()/200;
+       onelengthperiod = Random()/20; 
+       oneplayperiod = Random()/5;
+    }else if(buttonCounter%6 ==0){
+
+        threeperiod = Random()/100;
+ 8000c1a:	9006      	str	r0, [sp, #24]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c1c:	18af      	adds	r7, r5, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000c1e:	0078      	lsls	r0, r7, #1
+       onelengthperiod = Random()/20; 
+       oneplayperiod = Random()/5;
+    }else if(buttonCounter%6 ==0){
+
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+ 8000c20:	210a      	movs	r1, #10
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000c22:	0c40      	lsrs	r0, r0, #17
+       onelengthperiod = Random()/20; 
+       oneplayperiod = Random()/5;
+    }else if(buttonCounter%6 ==0){
+
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+ 8000c24:	f7ff fd92 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c28:	4367      	muls	r7, r4
+ 8000c2a:	4b66      	ldr	r3, [pc, #408]	; (8000dc4 <main+0x570>)
+       onelengthperiod = Random()/20; 
+       oneplayperiod = Random()/5;
+    }else if(buttonCounter%6 ==0){
+
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+ 8000c2c:	9007      	str	r0, [sp, #28]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c2e:	18ff      	adds	r7, r7, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000c30:	0078      	lsls	r0, r7, #1
+       oneplayperiod = Random()/5;
+    }else if(buttonCounter%6 ==0){
+
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+ 8000c32:	1c31      	adds	r1, r6, #0
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000c34:	0c40      	lsrs	r0, r0, #17
+       oneplayperiod = Random()/5;
+    }else if(buttonCounter%6 ==0){
+
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+ 8000c36:	f7ff fd89 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c3a:	4367      	muls	r7, r4
+ 8000c3c:	4961      	ldr	r1, [pc, #388]	; (8000dc4 <main+0x570>)
+       oneplayperiod = Random()/5;
+    }else if(buttonCounter%6 ==0){
+
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+ 8000c3e:	9008      	str	r0, [sp, #32]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c40:	187f      	adds	r7, r7, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000c42:	0078      	lsls	r0, r7, #1
+
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+      
+       twoperiod = Random()/100;
+ 8000c44:	2164      	movs	r1, #100	; 0x64
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000c46:	0c40      	lsrs	r0, r0, #17
+
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+      
+       twoperiod = Random()/100;
+ 8000c48:	f7ff fd80 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c4c:	4367      	muls	r7, r4
+ 8000c4e:	4a5d      	ldr	r2, [pc, #372]	; (8000dc4 <main+0x570>)
+
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+      
+       twoperiod = Random()/100;
+ 8000c50:	900b      	str	r0, [sp, #44]	; 0x2c
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c52:	18bf      	adds	r7, r7, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000c54:	0078      	lsls	r0, r7, #1
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+      
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+ 8000c56:	210a      	movs	r1, #10
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000c58:	0c40      	lsrs	r0, r0, #17
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+      
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+ 8000c5a:	f7ff fd77 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c5e:	4367      	muls	r7, r4
+ 8000c60:	4b58      	ldr	r3, [pc, #352]	; (8000dc4 <main+0x570>)
+        threeperiod = Random()/100;
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+      
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+ 8000c62:	900c      	str	r0, [sp, #48]	; 0x30
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c64:	18ff      	adds	r7, r7, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000c66:	0078      	lsls	r0, r7, #1
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+      
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+       twoplayperiod = Random()/3;
+ 8000c68:	1c31      	adds	r1, r6, #0
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000c6a:	0c40      	lsrs	r0, r0, #17
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+      
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+       twoplayperiod = Random()/3;
+ 8000c6c:	f7ff fd6e 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c70:	4367      	muls	r7, r4
+ 8000c72:	4954      	ldr	r1, [pc, #336]	; (8000dc4 <main+0x570>)
+       threelengthperiod = Random()/10; 
+       threeplayperiod = Random()/3;
+      
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+       twoplayperiod = Random()/3;
+ 8000c74:	9003      	str	r0, [sp, #12]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c76:	187f      	adds	r7, r7, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000c78:	0078      	lsls	r0, r7, #1
+      
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+       twoplayperiod = Random()/3;
+      
+       oneperiod = Random()/100;
+ 8000c7a:	2164      	movs	r1, #100	; 0x64
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000c7c:	0c40      	lsrs	r0, r0, #17
+      
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+       twoplayperiod = Random()/3;
+      
+       oneperiod = Random()/100;
+ 8000c7e:	f7ff fd65 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c82:	4367      	muls	r7, r4
+ 8000c84:	4a4f      	ldr	r2, [pc, #316]	; (8000dc4 <main+0x570>)
+      
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+       twoplayperiod = Random()/3;
+      
+       oneperiod = Random()/100;
+ 8000c86:	9009      	str	r0, [sp, #36]	; 0x24
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c88:	18bf      	adds	r7, r7, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000c8a:	0078      	lsls	r0, r7, #1
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+       twoplayperiod = Random()/3;
+      
+       oneperiod = Random()/100;
+       onelengthperiod = Random()/10; 
+ 8000c8c:	210a      	movs	r1, #10
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000c8e:	0c40      	lsrs	r0, r0, #17
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+       twoplayperiod = Random()/3;
+      
+       oneperiod = Random()/100;
+       onelengthperiod = Random()/10; 
+ 8000c90:	f7ff fd5c 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000c94:	437c      	muls	r4, r7
+ 8000c96:	4b4b      	ldr	r3, [pc, #300]	; (8000dc4 <main+0x570>)
+ 8000c98:	494b      	ldr	r1, [pc, #300]	; (8000dc8 <main+0x574>)
+ 8000c9a:	18e4      	adds	r4, r4, r3
+ 8000c9c:	600c      	str	r4, [r1, #0]
+   return ((NextRandom >> 16) & 32767);
+ 8000c9e:	0064      	lsls	r4, r4, #1
+       twoperiod = Random()/100;
+       twolengthperiod = Random()/10; 
+       twoplayperiod = Random()/3;
+      
+       oneperiod = Random()/100;
+       onelengthperiod = Random()/10; 
+ 8000ca0:	1c05      	adds	r5, r0, #0
+       oneplayperiod = Random()/3;
+ 8000ca2:	1c31      	adds	r1, r6, #0
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000ca4:	0c60      	lsrs	r0, r4, #17
+ 8000ca6:	e04c      	b.n	8000d42 <main+0x4ee>
+       twoplayperiod = Random()/3;
+      
+       oneperiod = Random()/100;
+       onelengthperiod = Random()/10; 
+       oneplayperiod = Random()/3;
+    }else if(buttonCounter%3==0){
+ 8000ca8:	9802      	ldr	r0, [sp, #8]
+ 8000caa:	1c31      	adds	r1, r6, #0
+ 8000cac:	f7ff fd92 	bl	80007d4 <__aeabi_uidivmod>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000cb0:	4a44      	ldr	r2, [pc, #272]	; (8000dc4 <main+0x570>)
+ 8000cb2:	18ad      	adds	r5, r5, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000cb4:	0068      	lsls	r0, r5, #1
+ 8000cb6:	0c40      	lsrs	r0, r0, #17
+       twoplayperiod = Random()/3;
+      
+       oneperiod = Random()/100;
+       onelengthperiod = Random()/10; 
+       oneplayperiod = Random()/3;
+    }else if(buttonCounter%3==0){
+ 8000cb8:	2900      	cmp	r1, #0
+ 8000cba:	d146      	bne.n	8000d4a <main+0x4f6>
+
+        threeperiod = Random()/1000;
+ 8000cbc:	21fa      	movs	r1, #250	; 0xfa
+ 8000cbe:	0089      	lsls	r1, r1, #2
+ 8000cc0:	f7ff fd44 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000cc4:	4365      	muls	r5, r4
+ 8000cc6:	4b3f      	ldr	r3, [pc, #252]	; (8000dc4 <main+0x570>)
+ 8000cc8:	493e      	ldr	r1, [pc, #248]	; (8000dc4 <main+0x570>)
+ 8000cca:	18ed      	adds	r5, r5, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000ccc:	006b      	lsls	r3, r5, #1
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000cce:	4365      	muls	r5, r4
+ 8000cd0:	186d      	adds	r5, r5, r1
+       oneperiod = Random()/100;
+       onelengthperiod = Random()/10; 
+       oneplayperiod = Random()/3;
+    }else if(buttonCounter%3==0){
+
+        threeperiod = Random()/1000;
+ 8000cd2:	9006      	str	r0, [sp, #24]
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000cd4:	0068      	lsls	r0, r5, #1
+ 8000cd6:	0c5b      	lsrs	r3, r3, #17
+       oneplayperiod = Random()/3;
+    }else if(buttonCounter%3==0){
+
+        threeperiod = Random()/1000;
+      threelengthperiod = Random()/1; 
+      threeplayperiod = Random()/15;
+ 8000cd8:	210f      	movs	r1, #15
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000cda:	0c40      	lsrs	r0, r0, #17
+ 8000cdc:	9307      	str	r3, [sp, #28]
+       oneplayperiod = Random()/3;
+    }else if(buttonCounter%3==0){
+
+        threeperiod = Random()/1000;
+      threelengthperiod = Random()/1; 
+      threeplayperiod = Random()/15;
+ 8000cde:	f7ff fd35 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000ce2:	4365      	muls	r5, r4
+ 8000ce4:	4a37      	ldr	r2, [pc, #220]	; (8000dc4 <main+0x570>)
+       oneplayperiod = Random()/3;
+    }else if(buttonCounter%3==0){
+
+        threeperiod = Random()/1000;
+      threelengthperiod = Random()/1; 
+      threeplayperiod = Random()/15;
+ 8000ce6:	9008      	str	r0, [sp, #32]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000ce8:	18ad      	adds	r5, r5, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000cea:	0068      	lsls	r0, r5, #1
+
+        threeperiod = Random()/1000;
+      threelengthperiod = Random()/1; 
+      threeplayperiod = Random()/15;
+      
+      twoperiod = Random()/10;
+ 8000cec:	210a      	movs	r1, #10
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000cee:	0c40      	lsrs	r0, r0, #17
+
+        threeperiod = Random()/1000;
+      threelengthperiod = Random()/1; 
+      threeplayperiod = Random()/15;
+      
+      twoperiod = Random()/10;
+ 8000cf0:	f7ff fd2c 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000cf4:	1c26      	adds	r6, r4, #0
+ 8000cf6:	436e      	muls	r6, r5
+ 8000cf8:	4b32      	ldr	r3, [pc, #200]	; (8000dc4 <main+0x570>)
+ 8000cfa:	4932      	ldr	r1, [pc, #200]	; (8000dc4 <main+0x570>)
+ 8000cfc:	18f6      	adds	r6, r6, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000cfe:	0073      	lsls	r3, r6, #1
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d00:	4366      	muls	r6, r4
+        threeperiod = Random()/1000;
+      threelengthperiod = Random()/1; 
+      threeplayperiod = Random()/15;
+      
+      twoperiod = Random()/10;
+      twolengthperiod = Random()/8; 
+ 8000d02:	0d1b      	lsrs	r3, r3, #20
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d04:	1876      	adds	r6, r6, r1
+        threeperiod = Random()/1000;
+      threelengthperiod = Random()/1; 
+      threeplayperiod = Random()/15;
+      
+      twoperiod = Random()/10;
+      twolengthperiod = Random()/8; 
+ 8000d06:	930c      	str	r3, [sp, #48]	; 0x30
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000d08:	0073      	lsls	r3, r6, #1
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d0a:	4366      	muls	r6, r4
+ 8000d0c:	1876      	adds	r6, r6, r1
+
+        threeperiod = Random()/1000;
+      threelengthperiod = Random()/1; 
+      threeplayperiod = Random()/15;
+      
+      twoperiod = Random()/10;
+ 8000d0e:	900b      	str	r0, [sp, #44]	; 0x2c
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000d10:	0070      	lsls	r0, r6, #1
+ 8000d12:	0c5b      	lsrs	r3, r3, #17
+      
+      twoperiod = Random()/10;
+      twolengthperiod = Random()/8; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/2500;
+ 8000d14:	492d      	ldr	r1, [pc, #180]	; (8000dcc <main+0x578>)
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000d16:	0c40      	lsrs	r0, r0, #17
+ 8000d18:	9303      	str	r3, [sp, #12]
+      
+      twoperiod = Random()/10;
+      twolengthperiod = Random()/8; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/2500;
+ 8000d1a:	f7ff fd17 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d1e:	4366      	muls	r6, r4
+ 8000d20:	4a28      	ldr	r2, [pc, #160]	; (8000dc4 <main+0x570>)
+      
+      twoperiod = Random()/10;
+      twolengthperiod = Random()/8; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/2500;
+ 8000d22:	9009      	str	r0, [sp, #36]	; 0x24
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d24:	18b6      	adds	r6, r6, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000d26:	0070      	lsls	r0, r6, #1
+      twoperiod = Random()/10;
+      twolengthperiod = Random()/8; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/2500;
+      onelengthperiod = Random()/12; 
+ 8000d28:	210c      	movs	r1, #12
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000d2a:	0c40      	lsrs	r0, r0, #17
+      twoperiod = Random()/10;
+      twolengthperiod = Random()/8; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/2500;
+      onelengthperiod = Random()/12; 
+ 8000d2c:	f7ff fd0e 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d30:	4374      	muls	r4, r6
+ 8000d32:	4b24      	ldr	r3, [pc, #144]	; (8000dc4 <main+0x570>)
+ 8000d34:	4924      	ldr	r1, [pc, #144]	; (8000dc8 <main+0x574>)
+ 8000d36:	18e4      	adds	r4, r4, r3
+      twoperiod = Random()/10;
+      twolengthperiod = Random()/8; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/2500;
+      onelengthperiod = Random()/12; 
+ 8000d38:	1c05      	adds	r5, r0, #0
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d3a:	600c      	str	r4, [r1, #0]
+   return ((NextRandom >> 16) & 32767);
+ 8000d3c:	0064      	lsls	r4, r4, #1
+ 8000d3e:	0c60      	lsrs	r0, r4, #17
+      twolengthperiod = Random()/8; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/2500;
+      onelengthperiod = Random()/12; 
+      oneplayperiod = Random()/5;
+ 8000d40:	2105      	movs	r1, #5
+ 8000d42:	f7ff fd03 	bl	800074c <__aeabi_uidiv>
+ 8000d46:	1c04      	adds	r4, r0, #0
+ 8000d48:	e5b6      	b.n	80008b8 <main+0x64>
+
+    }else{
+      threeperiod = Random()/1000;
+ 8000d4a:	21fa      	movs	r1, #250	; 0xfa
+ 8000d4c:	0089      	lsls	r1, r1, #2
+ 8000d4e:	f7ff fcfd 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d52:	4365      	muls	r5, r4
+ 8000d54:	4b1b      	ldr	r3, [pc, #108]	; (8000dc4 <main+0x570>)
+      oneperiod = Random()/2500;
+      onelengthperiod = Random()/12; 
+      oneplayperiod = Random()/5;
+
+    }else{
+      threeperiod = Random()/1000;
+ 8000d56:	9006      	str	r0, [sp, #24]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d58:	18ed      	adds	r5, r5, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000d5a:	0068      	lsls	r0, r5, #1
+      onelengthperiod = Random()/12; 
+      oneplayperiod = Random()/5;
+
+    }else{
+      threeperiod = Random()/1000;
+      threelengthperiod = Random()/10; 
+ 8000d5c:	210a      	movs	r1, #10
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000d5e:	0c40      	lsrs	r0, r0, #17
+      onelengthperiod = Random()/12; 
+      oneplayperiod = Random()/5;
+
+    }else{
+      threeperiod = Random()/1000;
+      threelengthperiod = Random()/10; 
+ 8000d60:	f7ff fcf4 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d64:	4365      	muls	r5, r4
+ 8000d66:	4917      	ldr	r1, [pc, #92]	; (8000dc4 <main+0x570>)
+      onelengthperiod = Random()/12; 
+      oneplayperiod = Random()/5;
+
+    }else{
+      threeperiod = Random()/1000;
+      threelengthperiod = Random()/10; 
+ 8000d68:	9007      	str	r0, [sp, #28]
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d6a:	186d      	adds	r5, r5, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000d6c:	006b      	lsls	r3, r5, #1
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d6e:	4365      	muls	r5, r4
+ 8000d70:	186d      	adds	r5, r5, r1
+   return ((NextRandom >> 16) & 32767);
+ 8000d72:	0068      	lsls	r0, r5, #1
+    }else{
+      threeperiod = Random()/1000;
+      threelengthperiod = Random()/10; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/800;
+ 8000d74:	21c8      	movs	r1, #200	; 0xc8
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000d76:	0c5b      	lsrs	r3, r3, #17
+    }else{
+      threeperiod = Random()/1000;
+      threelengthperiod = Random()/10; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/800;
+ 8000d78:	0089      	lsls	r1, r1, #2
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000d7a:	0c40      	lsrs	r0, r0, #17
+ 8000d7c:	9308      	str	r3, [sp, #32]
+    }else{
+      threeperiod = Random()/1000;
+      threelengthperiod = Random()/10; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/800;
+ 8000d7e:	f7ff fce5 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d82:	4365      	muls	r5, r4
+ 8000d84:	4a0f      	ldr	r2, [pc, #60]	; (8000dc4 <main+0x570>)
+    }else{
+      threeperiod = Random()/1000;
+      threelengthperiod = Random()/10; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/800;
+ 8000d86:	900b      	str	r0, [sp, #44]	; 0x2c
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d88:	18ad      	adds	r5, r5, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000d8a:	006b      	lsls	r3, r5, #1
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d8c:	4365      	muls	r5, r4
+      threeperiod = Random()/1000;
+      threelengthperiod = Random()/10; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/800;
+      twolengthperiod = Random()/8; 
+ 8000d8e:	0d1b      	lsrs	r3, r3, #20
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d90:	18ad      	adds	r5, r5, r2
+      threeperiod = Random()/1000;
+      threelengthperiod = Random()/10; 
+      threeplayperiod = Random();
+      
+      twoperiod = Random()/800;
+      twolengthperiod = Random()/8; 
+ 8000d92:	930c      	str	r3, [sp, #48]	; 0x30
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000d94:	006b      	lsls	r3, r5, #1
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000d96:	4365      	muls	r5, r4
+ 8000d98:	18ad      	adds	r5, r5, r2
+   return ((NextRandom >> 16) & 32767);
+ 8000d9a:	0068      	lsls	r0, r5, #1
+ 8000d9c:	0c5b      	lsrs	r3, r3, #17
+      
+      twoperiod = Random()/800;
+      twolengthperiod = Random()/8; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/200;
+ 8000d9e:	21c8      	movs	r1, #200	; 0xc8
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+   return ((NextRandom >> 16) & 32767);
+ 8000da0:	0c40      	lsrs	r0, r0, #17
+ 8000da2:	9303      	str	r3, [sp, #12]
+      
+      twoperiod = Random()/800;
+      twolengthperiod = Random()/8; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/200;
+ 8000da4:	f7ff fcd2 	bl	800074c <__aeabi_uidiv>
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000da8:	4365      	muls	r5, r4
+ 8000daa:	4906      	ldr	r1, [pc, #24]	; (8000dc4 <main+0x570>)
+ 8000dac:	4a06      	ldr	r2, [pc, #24]	; (8000dc8 <main+0x574>)
+ 8000dae:	186b      	adds	r3, r5, r1
+ 8000db0:	435c      	muls	r4, r3
+   return ((NextRandom >> 16) & 32767);
+ 8000db2:	005d      	lsls	r5, r3, #1
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000db4:	1864      	adds	r4, r4, r1
+      
+      twoperiod = Random()/800;
+      twolengthperiod = Random()/8; 
+      twoplayperiod = Random();
+      
+      oneperiod = Random()/200;
+ 8000db6:	9009      	str	r0, [sp, #36]	; 0x24
+      onelengthperiod = Random()/4; 
+ 8000db8:	0ced      	lsrs	r5, r5, #19
+
+
+unsigned long NextRandom = 1;
+inline unsigned long Random(void)
+{
+   NextRandom = NextRandom * 1103515245 + 12345;
+ 8000dba:	6014      	str	r4, [r2, #0]
+   return ((NextRandom >> 16) & 32767);
+ 8000dbc:	0064      	lsls	r4, r4, #1
+ 8000dbe:	0c64      	lsrs	r4, r4, #17
+ 8000dc0:	e57a      	b.n	80008b8 <main+0x64>
+ 8000dc2:	46c0      	nop			; (mov r8, r8)
+ 8000dc4:	00003039 	.word	0x00003039
+ 8000dc8:	2000001c 	.word	0x2000001c
+ 8000dcc:	000009c4 	.word	0x000009c4
+
+08000dd0 <SystemInit>:
+  * @retval None
+  */
+void SystemInit (void)
+{
+  /*!< Set MSION bit */
+  RCC->CR |= (uint32_t)0x00000100;
+ 8000dd0:	4b3c      	ldr	r3, [pc, #240]	; (8000ec4 <SystemInit+0xf4>)
+  *         SystemCoreClock variable.
+  * @param  None
+  * @retval None
+  */
+void SystemInit (void)
+{
+ 8000dd2:	b537      	push	{r0, r1, r2, r4, r5, lr}
+  /*!< Set MSION bit */
+  RCC->CR |= (uint32_t)0x00000100;
+ 8000dd4:	6819      	ldr	r1, [r3, #0]
+ 8000dd6:	2280      	movs	r2, #128	; 0x80
+ 8000dd8:	0052      	lsls	r2, r2, #1
+ 8000dda:	430a      	orrs	r2, r1
+ 8000ddc:	601a      	str	r2, [r3, #0]
+
+  /*!< Reset SW[1:0], HPRE[3:0], PPRE1[2:0], PPRE2[2:0], MCOSEL[2:0] and MCOPRE[2:0] bits */
+  RCC->CFGR &= (uint32_t)0x88FFC00C;
+ 8000dde:	6899      	ldr	r1, [r3, #8]
+ 8000de0:	4a39      	ldr	r2, [pc, #228]	; (8000ec8 <SystemInit+0xf8>)
+ 8000de2:	400a      	ands	r2, r1
+ 8000de4:	609a      	str	r2, [r3, #8]
+  
+  /*!< Reset HSION, HSEON, CSSON and PLLON bits */
+  RCC->CR &= (uint32_t)0xEEFEFFFE;
+ 8000de6:	6819      	ldr	r1, [r3, #0]
+ 8000de8:	4a38      	ldr	r2, [pc, #224]	; (8000ecc <SystemInit+0xfc>)
+ 8000dea:	400a      	ands	r2, r1
+ 8000dec:	601a      	str	r2, [r3, #0]
+
+  /*!< Reset HSEBYP bit */
+  RCC->CR &= (uint32_t)0xFFFBFFFF;
+ 8000dee:	6819      	ldr	r1, [r3, #0]
+ 8000df0:	4a37      	ldr	r2, [pc, #220]	; (8000ed0 <SystemInit+0x100>)
+ 8000df2:	400a      	ands	r2, r1
+ 8000df4:	601a      	str	r2, [r3, #0]
+
+  /*!< Reset PLLSRC, PLLMUL[3:0] and PLLDIV[1:0] bits */
+  RCC->CFGR &= (uint32_t)0xFF02FFFF;
+ 8000df6:	689a      	ldr	r2, [r3, #8]
+ 8000df8:	4936      	ldr	r1, [pc, #216]	; (8000ed4 <SystemInit+0x104>)
+ 8000dfa:	400a      	ands	r2, r1
+ 8000dfc:	609a      	str	r2, [r3, #8]
+
+  /*!< Disable all interrupts */
+  RCC->CIR = 0x00000000;
+ 8000dfe:	2200      	movs	r2, #0
+ 8000e00:	60da      	str	r2, [r3, #12]
+  * @param  None
+  * @retval None
+  */
+static void SetSysClock(void)
+{
+  __IO uint32_t StartUpCounter = 0, HSEStatus = 0;
+ 8000e02:	9200      	str	r2, [sp, #0]
+ 8000e04:	9201      	str	r2, [sp, #4]
+  
+  /* SYSCLK, HCLK, PCLK2 and PCLK1 configuration ---------------------------*/
+  /* Enable HSE */
+  RCC->CR |= ((uint32_t)RCC_CR_HSEON);
+ 8000e06:	6818      	ldr	r0, [r3, #0]
+ 8000e08:	2280      	movs	r2, #128	; 0x80
+ 8000e0a:	0252      	lsls	r2, r2, #9
+ 8000e0c:	4302      	orrs	r2, r0
+ 8000e0e:	601a      	str	r2, [r3, #0]
+ 8000e10:	1c08      	adds	r0, r1, #0
+ 
+  /* Wait till HSE is ready and if Time out is reached exit */
+  do
+  {
+    HSEStatus = RCC->CR & RCC_CR_HSERDY;
+ 8000e12:	6819      	ldr	r1, [r3, #0]
+ 8000e14:	2280      	movs	r2, #128	; 0x80
+ 8000e16:	0292      	lsls	r2, r2, #10
+ 8000e18:	4011      	ands	r1, r2
+ 8000e1a:	9101      	str	r1, [sp, #4]
+    StartUpCounter++;
+ 8000e1c:	9900      	ldr	r1, [sp, #0]
+ 8000e1e:	3101      	adds	r1, #1
+ 8000e20:	9100      	str	r1, [sp, #0]
+  } while((HSEStatus == 0) && (StartUpCounter != HSE_STARTUP_TIMEOUT));
+ 8000e22:	9901      	ldr	r1, [sp, #4]
+ 8000e24:	2900      	cmp	r1, #0
+ 8000e26:	d104      	bne.n	8000e32 <SystemInit+0x62>
+ 8000e28:	9c00      	ldr	r4, [sp, #0]
+ 8000e2a:	21a0      	movs	r1, #160	; 0xa0
+ 8000e2c:	01c9      	lsls	r1, r1, #7
+ 8000e2e:	428c      	cmp	r4, r1
+ 8000e30:	d1ef      	bne.n	8000e12 <SystemInit+0x42>
+
+  if ((RCC->CR & RCC_CR_HSERDY) != RESET)
+ 8000e32:	6819      	ldr	r1, [r3, #0]
+ 8000e34:	400a      	ands	r2, r1
+ 8000e36:	d000      	beq.n	8000e3a <SystemInit+0x6a>
+  {
+    HSEStatus = (uint32_t)0x01;
+ 8000e38:	2201      	movs	r2, #1
+  }
+  else
+  {
+    HSEStatus = (uint32_t)0x00;
+ 8000e3a:	9201      	str	r2, [sp, #4]
+  }
+  
+  if (HSEStatus == (uint32_t)0x01)
+ 8000e3c:	9901      	ldr	r1, [sp, #4]
+ 8000e3e:	2901      	cmp	r1, #1
+ 8000e40:	d004      	beq.n	8000e4c <SystemInit+0x7c>
+  SetSysClock();
+
+#ifdef VECT_TAB_SRAM
+  SCB->VTOR = SRAM_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal SRAM. */
+#else
+  SCB->VTOR = FLASH_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal FLASH. */
+ 8000e42:	4b25      	ldr	r3, [pc, #148]	; (8000ed8 <SystemInit+0x108>)
+ 8000e44:	2280      	movs	r2, #128	; 0x80
+ 8000e46:	0512      	lsls	r2, r2, #20
+ 8000e48:	609a      	str	r2, [r3, #8]
+#endif
+}
+ 8000e4a:	bd37      	pop	{r0, r1, r2, r4, r5, pc}
+  }
+  
+  if (HSEStatus == (uint32_t)0x01)
+  {
+    /* Enable 64-bit access */
+    FLASH->ACR |= FLASH_ACR_ACC64;
+ 8000e4c:	4a23      	ldr	r2, [pc, #140]	; (8000edc <SystemInit+0x10c>)
+ 8000e4e:	2504      	movs	r5, #4
+ 8000e50:	6814      	ldr	r4, [r2, #0]
+ 8000e52:	432c      	orrs	r4, r5
+ 8000e54:	6014      	str	r4, [r2, #0]
+    
+    /* Enable Prefetch Buffer */
+    FLASH->ACR |= FLASH_ACR_PRFTEN;
+ 8000e56:	6814      	ldr	r4, [r2, #0]
+ 8000e58:	2502      	movs	r5, #2
+ 8000e5a:	432c      	orrs	r4, r5
+ 8000e5c:	6014      	str	r4, [r2, #0]
+
+    /* Flash 1 wait state */
+    FLASH->ACR |= FLASH_ACR_LATENCY;
+ 8000e5e:	6814      	ldr	r4, [r2, #0]
+ 8000e60:	4321      	orrs	r1, r4
+ 8000e62:	6011      	str	r1, [r2, #0]
+    
+    /* Power enable */
+    RCC->APB1ENR |= RCC_APB1ENR_PWREN;
+ 8000e64:	6a59      	ldr	r1, [r3, #36]	; 0x24
+ 8000e66:	2280      	movs	r2, #128	; 0x80
+ 8000e68:	0552      	lsls	r2, r2, #21
+ 8000e6a:	430a      	orrs	r2, r1
+ 8000e6c:	625a      	str	r2, [r3, #36]	; 0x24
+  
+    /* Select the Voltage Range 1 (1.8 V) */
+    PWR->CR = PWR_CR_VOS_0;
+ 8000e6e:	2180      	movs	r1, #128	; 0x80
+ 8000e70:	4a1b      	ldr	r2, [pc, #108]	; (8000ee0 <SystemInit+0x110>)
+ 8000e72:	0109      	lsls	r1, r1, #4
+ 8000e74:	6011      	str	r1, [r2, #0]
+  
+    /* Wait Until the Voltage Regulator is ready */
+    while((PWR->CSR & PWR_CSR_VOSF) != RESET)
+ 8000e76:	6851      	ldr	r1, [r2, #4]
+ 8000e78:	06cc      	lsls	r4, r1, #27
+ 8000e7a:	d4fc      	bmi.n	8000e76 <SystemInit+0xa6>
+    {
+    }
+        
+    /* HCLK = SYSCLK /1*/
+    RCC->CFGR |= (uint32_t)RCC_CFGR_HPRE_DIV1;
+ 8000e7c:	689a      	ldr	r2, [r3, #8]
+ 8000e7e:	609a      	str	r2, [r3, #8]
+  
+    /* PCLK2 = HCLK /1*/
+    RCC->CFGR |= (uint32_t)RCC_CFGR_PPRE2_DIV1;
+ 8000e80:	689a      	ldr	r2, [r3, #8]
+ 8000e82:	609a      	str	r2, [r3, #8]
+    
+    /* PCLK1 = HCLK /1*/
+    RCC->CFGR |= (uint32_t)RCC_CFGR_PPRE1_DIV1;
+ 8000e84:	689a      	ldr	r2, [r3, #8]
+ 8000e86:	609a      	str	r2, [r3, #8]
+    
+    /*  PLL configuration */
+    RCC->CFGR &= (uint32_t)((uint32_t)~(RCC_CFGR_PLLSRC | RCC_CFGR_PLLMUL |
+ 8000e88:	6899      	ldr	r1, [r3, #8]
+                                        RCC_CFGR_PLLDIV));
+    RCC->CFGR |= (uint32_t)(RCC_CFGR_PLLSRC_HSE | RCC_CFGR_PLLMUL12 | RCC_CFGR_PLLDIV3);
+ 8000e8a:	2291      	movs	r2, #145	; 0x91
+    
+    /* PCLK1 = HCLK /1*/
+    RCC->CFGR |= (uint32_t)RCC_CFGR_PPRE1_DIV1;
+    
+    /*  PLL configuration */
+    RCC->CFGR &= (uint32_t)((uint32_t)~(RCC_CFGR_PLLSRC | RCC_CFGR_PLLMUL |
+ 8000e8c:	4001      	ands	r1, r0
+ 8000e8e:	6099      	str	r1, [r3, #8]
+                                        RCC_CFGR_PLLDIV));
+    RCC->CFGR |= (uint32_t)(RCC_CFGR_PLLSRC_HSE | RCC_CFGR_PLLMUL12 | RCC_CFGR_PLLDIV3);
+ 8000e90:	6899      	ldr	r1, [r3, #8]
+ 8000e92:	0412      	lsls	r2, r2, #16
+ 8000e94:	430a      	orrs	r2, r1
+ 8000e96:	609a      	str	r2, [r3, #8]
+
+    /* Enable PLL */
+    RCC->CR |= RCC_CR_PLLON;
+ 8000e98:	6819      	ldr	r1, [r3, #0]
+ 8000e9a:	2280      	movs	r2, #128	; 0x80
+ 8000e9c:	0452      	lsls	r2, r2, #17
+ 8000e9e:	430a      	orrs	r2, r1
+ 8000ea0:	601a      	str	r2, [r3, #0]
+
+    /* Wait till PLL is ready */
+    while((RCC->CR & RCC_CR_PLLRDY) == 0)
+ 8000ea2:	6819      	ldr	r1, [r3, #0]
+ 8000ea4:	4a07      	ldr	r2, [pc, #28]	; (8000ec4 <SystemInit+0xf4>)
+ 8000ea6:	0188      	lsls	r0, r1, #6
+ 8000ea8:	d5fb      	bpl.n	8000ea2 <SystemInit+0xd2>
+    {
+    }
+        
+    /* Select PLL as system clock source */
+    RCC->CFGR &= (uint32_t)((uint32_t)~(RCC_CFGR_SW));
+ 8000eaa:	6890      	ldr	r0, [r2, #8]
+ 8000eac:	2103      	movs	r1, #3
+ 8000eae:	4388      	bics	r0, r1
+ 8000eb0:	6090      	str	r0, [r2, #8]
+    RCC->CFGR |= (uint32_t)RCC_CFGR_SW_PLL;
+ 8000eb2:	6890      	ldr	r0, [r2, #8]
+ 8000eb4:	4301      	orrs	r1, r0
+ 8000eb6:	6091      	str	r1, [r2, #8]
+
+    /* Wait till PLL is used as system clock source */
+    while ((RCC->CFGR & (uint32_t)RCC_CFGR_SWS) != (uint32_t)RCC_CFGR_SWS_PLL)
+ 8000eb8:	6899      	ldr	r1, [r3, #8]
+ 8000eba:	220c      	movs	r2, #12
+ 8000ebc:	400a      	ands	r2, r1
+ 8000ebe:	2a0c      	cmp	r2, #12
+ 8000ec0:	d1fa      	bne.n	8000eb8 <SystemInit+0xe8>
+ 8000ec2:	e7be      	b.n	8000e42 <SystemInit+0x72>
+ 8000ec4:	40023800 	.word	0x40023800
+ 8000ec8:	88ffc00c 	.word	0x88ffc00c
+ 8000ecc:	eefefffe 	.word	0xeefefffe
+ 8000ed0:	fffbffff 	.word	0xfffbffff
+ 8000ed4:	ff02ffff 	.word	0xff02ffff
+ 8000ed8:	e000ed00 	.word	0xe000ed00
+ 8000edc:	40023c00 	.word	0x40023c00
+ 8000ee0:	40007000 	.word	0x40007000
+
+08000ee4 <Reset_Handler>:
+.weak Reset_Handler
+.type Reset_Handler, %function
+Reset_Handler:
+
+/* Copy the data segment initializers from flash to SRAM */
+movs r1, #0
+ 8000ee4:	2100      	movs	r1, #0
+b LoopCopyDataInit
+ 8000ee6:	f000 b804 	b.w	8000ef2 <LoopCopyDataInit>
+
+08000eea <CopyDataInit>:
+
+CopyDataInit:
+ldr r3, =_sidata
+ 8000eea:	4b0d      	ldr	r3, [pc, #52]	; (8000f20 <LoopFillZerobss+0x16>)
+ldr r3, [r3, r1]
+ 8000eec:	585b      	ldr	r3, [r3, r1]
+str r3, [r0, r1]
+ 8000eee:	5043      	str	r3, [r0, r1]
+adds r1, r1, #4
+ 8000ef0:	3104      	adds	r1, #4
+
+08000ef2 <LoopCopyDataInit>:
+
+LoopCopyDataInit:
+ldr r0, =_sdata
+ 8000ef2:	480c      	ldr	r0, [pc, #48]	; (8000f24 <LoopFillZerobss+0x1a>)
+ldr r3, =_edata
+ 8000ef4:	4b0c      	ldr	r3, [pc, #48]	; (8000f28 <LoopFillZerobss+0x1e>)
+adds r2, r0, r1
+ 8000ef6:	1842      	adds	r2, r0, r1
+cmp r2, r3
+ 8000ef8:	429a      	cmp	r2, r3
+bcc CopyDataInit
+ 8000efa:	f4ff aff6 	bcc.w	8000eea <CopyDataInit>
+ldr r2, =_sbss
+ 8000efe:	4a0b      	ldr	r2, [pc, #44]	; (8000f2c <LoopFillZerobss+0x22>)
+b LoopFillZerobss
+ 8000f00:	f000 b803 	b.w	8000f0a <LoopFillZerobss>
+
+08000f04 <FillZerobss>:
+/* Zero fill the bss segment. */
+FillZerobss:
+movs r3, #0
+ 8000f04:	2300      	movs	r3, #0
+str r3, [r2], #4
+ 8000f06:	f842 3b04 	str.w	r3, [r2], #4
+
+08000f0a <LoopFillZerobss>:
+
+LoopFillZerobss:
+ldr r3, = _ebss
+ 8000f0a:	4b09      	ldr	r3, [pc, #36]	; (8000f30 <LoopFillZerobss+0x26>)
+cmp r2, r3
+ 8000f0c:	429a      	cmp	r2, r3
+bcc FillZerobss
+ 8000f0e:	f4ff aff9 	bcc.w	8000f04 <FillZerobss>
+
+/* Call the clock system intitialization function.*/
+bl SystemInit
+ 8000f12:	f7ff ff5d 	bl	8000dd0 <SystemInit>
+/* Call static constructors */
+bl __libc_init_array
+ 8000f16:	f000 f80f 	bl	8000f38 <__libc_init_array>
+/* Call the application's entry point.*/
+bl main
+ 8000f1a:	f7ff fc9b 	bl	8000854 <main>
+bx lr
+ 8000f1e:	4770      	bx	lr
+/* Copy the data segment initializers from flash to SRAM */
+movs r1, #0
+b LoopCopyDataInit
+
+CopyDataInit:
+ldr r3, =_sidata
+ 8000f20:	08000f98 	.word	0x08000f98
+ldr r3, [r3, r1]
+str r3, [r0, r1]
+adds r1, r1, #4
+
+LoopCopyDataInit:
+ldr r0, =_sdata
+ 8000f24:	20000000 	.word	0x20000000
+ldr r3, =_edata
+ 8000f28:	20000020 	.word	0x20000020
+adds r2, r0, r1
+cmp r2, r3
+bcc CopyDataInit
+ldr r2, =_sbss
+ 8000f2c:	20000020 	.word	0x20000020
+FillZerobss:
+movs r3, #0
+str r3, [r2], #4
+
+LoopFillZerobss:
+ldr r3, = _ebss
+ 8000f30:	20000020 	.word	0x20000020
+
+08000f34 <ADC1_IRQHandler>:
+* @retval : None
+*/
+.section .text.Default_Handler,"ax",%progbits
+Default_Handler:
+Infinite_Loop:
+b Infinite_Loop
+ 8000f34:	f7ff bffe 	b.w	8000f34 <ADC1_IRQHandler>
+
+08000f38 <__libc_init_array>:
+ 8000f38:	b570      	push	{r4, r5, r6, lr}
+ 8000f3a:	4e0d      	ldr	r6, [pc, #52]	; (8000f70 <__libc_init_array+0x38>)
+ 8000f3c:	4d0d      	ldr	r5, [pc, #52]	; (8000f74 <__libc_init_array+0x3c>)
+ 8000f3e:	2400      	movs	r4, #0
+ 8000f40:	1bad      	subs	r5, r5, r6
+ 8000f42:	10ad      	asrs	r5, r5, #2
+ 8000f44:	d005      	beq.n	8000f52 <__libc_init_array+0x1a>
+ 8000f46:	00a3      	lsls	r3, r4, #2
+ 8000f48:	58f3      	ldr	r3, [r6, r3]
+ 8000f4a:	3401      	adds	r4, #1
+ 8000f4c:	4798      	blx	r3
+ 8000f4e:	42a5      	cmp	r5, r4
+ 8000f50:	d1f9      	bne.n	8000f46 <__libc_init_array+0xe>
+ 8000f52:	f000 f815 	bl	8000f80 <_init>
+ 8000f56:	4e08      	ldr	r6, [pc, #32]	; (8000f78 <__libc_init_array+0x40>)
+ 8000f58:	4d08      	ldr	r5, [pc, #32]	; (8000f7c <__libc_init_array+0x44>)
+ 8000f5a:	2400      	movs	r4, #0
+ 8000f5c:	1bad      	subs	r5, r5, r6
+ 8000f5e:	10ad      	asrs	r5, r5, #2
+ 8000f60:	d005      	beq.n	8000f6e <__libc_init_array+0x36>
+ 8000f62:	00a3      	lsls	r3, r4, #2
+ 8000f64:	58f3      	ldr	r3, [r6, r3]
+ 8000f66:	3401      	adds	r4, #1
+ 8000f68:	4798      	blx	r3
+ 8000f6a:	42a5      	cmp	r5, r4
+ 8000f6c:	d1f9      	bne.n	8000f62 <__libc_init_array+0x2a>
+ 8000f6e:	bd70      	pop	{r4, r5, r6, pc}
+	...
+
+08000f80 <_init>:
+ 8000f80:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+ 8000f82:	46c0      	nop			; (mov r8, r8)
+ 8000f84:	bcf8      	pop	{r3, r4, r5, r6, r7}
+ 8000f86:	bc08      	pop	{r3}
+ 8000f88:	469e      	mov	lr, r3
+ 8000f8a:	4770      	bx	lr
+
+08000f8c <_fini>:
+ 8000f8c:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+ 8000f8e:	46c0      	nop			; (mov r8, r8)
+ 8000f90:	bcf8      	pop	{r3, r4, r5, r6, r7}
+ 8000f92:	bc08      	pop	{r3}
+ 8000f94:	469e      	mov	lr, r3
+ 8000f96:	4770      	bx	lr
